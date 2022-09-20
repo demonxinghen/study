@@ -28,7 +28,7 @@ The key fingerprint is: ...
 3.密钥配置
 
 登录github,点击头像-->settings-->SSH and GPG keys-->new SSH key
-![img.png](新增SSH key.png)
+![img.png](Git配置图片/新增SSH-key.png)
 title随意输入,Key输入刚才id_rsa.pub中的内容,然后点击Add SSH key即可.
 
 4.配置完成就可以通过ssh克隆项目了.
