@@ -40,3 +40,8 @@ git config --global user.name demonxinghen
 # 全局配置邮箱
 git config --global user.email demonxinghen@126.com
 ```
+
+6.仓库级用户信息配置
+```text
+将5中的--global改为--local, 或者不要, 默认值即为--local,只对本仓库有效
+```
