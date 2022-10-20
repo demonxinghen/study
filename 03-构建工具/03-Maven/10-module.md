@@ -104,3 +104,13 @@ pluginManagement, 同dependencyManagement.
 ```
 
 ### 8.反应堆
+```text
+mvn可选配置
+-h 查看支持的命令
+-am, --also-make 同时构建所列模块的依赖模块,比如A依赖B,构建A的同时会构建B
+-amd, --also-make-dependents 同时构建依赖于所列模块的模块,比如A依赖B,构建B的同时会构建A
+-pl, --projects <args> 构建指定的模块,所列模块用,分隔
+-fr, --resume-from <args> 从指定的模块回复反应堆,比如正常构建有4个模块,这个参数会从指定的模块开始构建,之前的就跳过了
+```
+
+反应堆也就是构建顺序,maven依次读取pom,如果pom没有依赖模块,则构建该模块,如果依赖模块A,则先构建A,再构建自身.
