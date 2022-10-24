@@ -93,7 +93,7 @@ OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x000000074f550000, 18
 # An error report file with more information is saved as:
 # /root/nexus-3.42.0-01/hs_err_pid29372.log
 ```
-查看提示给出的log,很明显是内存不足,购买的云服务器只有1G内存
+查看提示给出的log,很明显是内存不足,购买的云服务器只有2G内存
 ```text
 # There is insufficient memory for the Java Runtime Environment to continue.
 # Native memory allocation (mmap) failed to map 1890254848 bytes for committing reserved memory.
@@ -116,3 +116,83 @@ OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x000000074f550000, 18
 # Java VM: OpenJDK 64-Bit Server VM (25.345-b01 mixed mode linux-amd64 compressed oops)
 # Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
 ```
+
+找到nexus.vmoptions:
+```text
+-Xms2703m
+-Xmx2703m
+-XX:MaxDirectMemorySize=2703m
+-XX:+UnlockDiagnosticVMOptions
+-XX:+LogVMOutput
+-XX:LogFile=../sonatype-work/nexus3/log/jvm.log
+-XX:-OmitStackTraceInFastThrow
+-Djava.net.preferIPv4Stack=true
+-Dkaraf.home=.
+-Dkaraf.base=.
+-Dkaraf.etc=etc/karaf
+-Djava.util.logging.config.file=etc/karaf/java.util.logging.properties
+-Dkaraf.data=../sonatype-work/nexus3
+-Dkaraf.log=../sonatype-work/nexus3/log
+-Djava.io.tmpdir=../sonatype-work/nexus3/tmp
+-Dkaraf.startLocalConsole=false
+-Djdk.tls.ephemeralDHKeySize=2048
+```
+可以看见默认启动是2703M,修改为1024M.
+
+这回启动成功了,访问页面http://localhost:8089/
+
+## 使用
+首先看一下nexus页面:
+![img.png](11-Nexus搭建私服资料/nexus首页.png)
+
+### 登录
+nexus默认匿名访问,右上角sign in登录.
+
+Your admin user password is located in
+/root/sonatype-work/nexus3/admin.password on the server.
+
+提示你admin密码所在位置.
+
+登录后会提示你修改密码以及是否要允许匿名访问.
+
+### 仓库
+打开设置,查看仓库
+![img.png](11-Nexus搭建私服资料/默认仓库.png)
+
+列表中已经内置部分仓库,可以看见类型有三种,也就是type这一列,分别是proxy(代理)、hosted(宿主)、group(仓库组).
+
+点击仓库详情，还能看见version policy和url，前者表示该仓库为发布(release)版本还是快照(snapshot)版本或者混合(mixed),后者就是仓库路径。
+
+仓库列表：
+```text
+maven-central: 代理中央仓库，策略为release
+maven-public: 仓库组，整合了maven-central、maven-releases、maven-snapshots
+maven-releases: 宿主的release仓库
+maven-snapshots: 宿主的snapshot仓库
+nuget-group: 微软NuGet,是Visual Studio的扩展，不管它
+nuget-hosted:
+nuget.org-proxy:
+```
+部分配置解释
+```text
+Layout policy: 布局策略。
+    strict：严格检查
+    permissive：不检查
+Content Disposition: 内容部署
+Blob store: 大文件存储
+Strict Content Type Validation: 严格的content-type校验
+Deployment policy: 仓库的部署策略。
+    Allow redeploy 允许重新部署
+    Disabled redeploy 关闭重新部署(只能部署一次)
+    Read-only 只读，禁止部署
+    Deploy by Replication only 仅通过复制部署
+Propietary Components: 专用组件
+Remote storage: 远程仓库的地址
+Maximum metadata age: 元数据最大时间，也就是元数据更新时间间隔
+Routing rule: 路由规则
+Not found cache enabled: 没有找到是否启用缓存
+Not found cache ttl: 缓存有效期
+```
+
+## 配置
+maven下的settings.xml，修改profile配置
