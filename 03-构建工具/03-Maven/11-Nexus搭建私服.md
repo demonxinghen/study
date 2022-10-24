@@ -195,4 +195,45 @@ Not found cache ttl: 缓存有效期
 ```
 
 ## 配置
-maven下的settings.xml，修改profile配置
+maven下的settings.xml,修改profile配置
+```xml
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+    <profiles>
+        <profile>
+            <id>nexus</id>
+            <repositories>
+                <repository>
+                    <id>nexus</id>
+                    <name>Nexus</name>
+                    <url>http://111.231.6.231:8089/repository/maven-public/</url>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots><enabled>true</enabled></snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>nexus</id>
+                    <name>Nexus</name>
+                    <url>http://111.231.6.231:8089/repository/maven-public/</url>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots><enabled>true</enabled></snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>nexus</activeProfile>
+    </activeProfiles>
+</settings>
+```
+
+整个流程我理解的就是寻找 activeProfile, 通过activeProfile找到对应的repository,然后根据repository查找对应的server,是否需要密码等,认证通过后根据mirror里的url去下载对应的jar包.
+
+通过 mvn help:effective-settings 和 mvn help:effective-pom -Dverbose 可以查看最终生成的pom
+
+更多可查看 https://maven.apache.org/guides/introduction/introduction-to-profiles.html
+
+## 权限
