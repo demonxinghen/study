@@ -25,3 +25,11 @@ c:
 
 4.重新运行DOSBox 0.74-3.exe,看见如下画面则成功.
 ![img_3.png](环境搭建-windows图片/DOSBox成功运行画面.png)
+
+5.后续还需要编码源码等, 将masm500.zip解压,里面是四个文件拷贝到d:\asm下,也就是和debug.exe放一起
+
+里面是四个文件为
+* CREF.EXE
+* LIB.EXE
+* LINK.EXE
+* MASM.EXE
