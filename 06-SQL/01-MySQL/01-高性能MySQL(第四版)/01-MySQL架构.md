@@ -67,3 +67,52 @@ InnoDB通过MVCC解决了幻读的问题.
 
 幻读理解有争议.
 ```
+* 可串行化SERIALIZABLE
+### 死锁
+预防：InnoDB存储引擎检测到循环依赖后会立即返回一个错误信息。
+处理：InnoDB会将持有最少行级排他锁的事务回滚(这是一种最容易回滚的近似算法)。
+### 事务日志
+事务日志采用的是追加写机制，是在硬盘中一小块区域内的顺序I/O，而不是需要写多个地方的随机I/O，所以写入事务日志是一种相对较快的操作。最后会有一个后台进程在某个时间去更新硬盘中的表。
+
+采用这种预写式日志(write-ahead logging)的存储引擎修改数据最终需要写入磁盘两次。
+
+因此修改操作已经写入事务日志，即使系统是数据写入磁盘之前崩溃，存储引擎仍可以在重新启动时恢复更改。
+
+### MySQL中的事务
+#### 理解AUTOCOMMIT
+1.默认情况下，单个INSERT、UPDATE或DELETE语句会被隐式包装在一个事务中并在执行成功后立刻提交，这成为自动提交(AUTOCOMMIT)。
+```mysql
+SET AUTOCOMMIT = 0; -- (0或OFF)禁用自动提交
+SET AUTOCOMMIT = 1; -- (1或ON)启用自动提交
+-- 当AUTOCOMMIT=0时，当前连接总是会处于某个事务中，直到发出COMMIT或ROLLBACK，然后MySQL会立即启动一个新的事务。
+-- 当AUTOCOMMIT=1时，可以通过BEGIN;或者START TRANSACTION;来启动一个新的事务。
+```
+2.还有些命令会导致MySQL提前提交事务，比如alter table、lock tables和其他一些语句，完整命令列表请查看对应版本的官方文档。
+```mysql
+select @@session.transaction_isolation;
+select @@global.transaction_isolation;
+set global transaction isolation level repeatable read;
+set session transaction isolation level repeatable read;
+```
+事务是由存储引擎实现的，所以在同一个事务中，混合使用多种存储引擎是不可靠的。
+#### 隐式锁定和显式锁定
+InnoDB使用两阶段锁定协议(two-phase locking protocol)，在事务执行期间，随时都可以获取锁，但锁只有在提交或回滚后释放，并且所有的锁同时释放。
+
+显式锁定
+```text
+select ... for share(MySQL8.0的新语句，代替了以前的select ... lock in share mode)
+select ... for update
+MySQL支持，但不属于SQL规范，尽量避免使用。
+```
+lock tables和unlock tables这些命令在服务器级别实现，而不是存储引擎级别。（这两个命令由于和事务交互复杂，且不同版本存在不同行为，不建议使用）
+## MVCC(多版本并发控制)
+可以认为MVCC是行级锁的一个变种，很多情况下避免了加锁操作，因此开销更低。
+
+MVCC的工作原理是使用数据在某个时间点的快照来实现的。也就是说无论事务运行多长，都可以看到数据的一致视图，也意味着不同的事务可以在同一时间看到同一张表中的不同数据。
+```text
+1.innodb通过为每个事务在启动时分配一个事务ID来实现MVCC，该ID在事务首次读取任何数据时分配。
+2.在该事务中修改记录时，向Undo日志写入一条说明如何恢复该更改的Undo记录，并且事务的回滚指针指向该Undo记录。
+3.当不同的会话读取聚簇主键索引记录时，innodb会将该记录的事务ID与该会话的读取视图进行比较。如果当前状态下的记录不应可见(更改它的事务未提交)，那么undo日志记录将被跟踪并应用，直到会话达到一个符合可见条件的事务ID。
+4.这个过程可以一直循环到完全删除这一行的undo记录，然后向读取视图发出这一行不存在的信号。
+```
+_**仅适用于REPEATABLE READ和READ COMMITTED。**_
