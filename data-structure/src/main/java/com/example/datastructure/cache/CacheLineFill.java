@@ -1,5 +1,7 @@
 package com.example.datastructure.cache;
 
+import java.util.concurrent.CountDownLatch;
+
 /**
  * 知识基础: 一个CPU有多核,每个核有单独的L1和L2缓存,多核之间共享L3缓存,多个CPU之间共享内存<br/>
  * cpu为了提高效率,在读取某个数据时,会假设其附近的数据也会被访问,因此读的是一个缓存行的数据<br/>
@@ -19,6 +21,7 @@ public class CacheLineFill {
     }
 
     private static void testFillTime() throws InterruptedException {
+        CountDownLatch countDownLatch = new CountDownLatch(2);
         ObjectFill[] array = new ObjectFill[2];
         array[0] = new ObjectFill();
         array[1] = new ObjectFill();
@@ -27,24 +30,26 @@ public class CacheLineFill {
             for (int i = 0; i < TIMES; i++) {
                 array[0].m = i + 1;
             }
+            countDownLatch.countDown();
         });
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < TIMES; i++) {
                 array[1].m = i + 1;
             }
+            countDownLatch.countDown();
         });
 
         t1.start();
         t2.start();
 
-        t1.join();
-        t2.join();
+        countDownLatch.await();
 
         long end = System.currentTimeMillis();
         System.out.println("有填充的耗时:" + (end - start));
     }
 
     private static void testNoFillTime() throws InterruptedException {
+        CountDownLatch countDownLatch = new CountDownLatch(2);
         ObjectNoFill[] array = new ObjectNoFill[2];
         array[0] = new ObjectNoFill();
         array[1] = new ObjectNoFill();
@@ -53,18 +58,19 @@ public class CacheLineFill {
             for (int i = 0; i < TIMES; i++) {
                 array[0].m = i + 1;
             }
+            countDownLatch.countDown();
         });
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < TIMES; i++) {
                 array[1].m = i + 1;
             }
+            countDownLatch.countDown();
         });
 
         t1.start();
         t2.start();
 
-        t1.join();
-        t2.join();
+        countDownLatch.await();
 
         long end = System.currentTimeMillis();
         System.out.println("没有填充的耗时:" + (end - start));
