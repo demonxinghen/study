@@ -16,7 +16,7 @@ Java内存模型描述了Java编程语言中的线程如何通过内存进行交
 
 指令重排序有编译器重排序和CPU重排序, 可重排序的指令, CPU可以在不同线程上同时执行.
 
-volatile:
+volatile:保证有序性和可见性.
 ```text
 Every write to the field will be written/flushed directly to the main memory (i.e. bypassing the cache.)
 Every read of that field is read directly from the main memory.
