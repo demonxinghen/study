@@ -13,20 +13,20 @@ public class RecursionStepDemo {
 
     public static void main(String[] args) {
         long start = System.nanoTime();
-        System.out.println(calc(1000));
+        System.out.println(calc(100));
         long end = System.nanoTime();
 
         System.out.println("未优化的算法耗时:" + (end - start) + "纳秒");
 
         long start1 = System.nanoTime();
-        System.out.println(calcWithCache(1000));
+        System.out.println(calcWithCache(100));
         long end1 = System.nanoTime();
         System.out.println("缓存优化的算法耗时:" + (end1 - start1) + "纳秒");
 
         System.out.println("缓存优化比原始递归速度提升了" + ((end - start) / (end1 - start1)));
 
         long start2 = System.nanoTime();
-        System.out.println(calcWithStore(1000));
+        System.out.println(calcWithStore(100));
         long end2 = System.nanoTime();
         System.out.println("存值优化的算法耗时:" + (end2 - start2) + "纳秒");
 
