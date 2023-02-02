@@ -26,14 +26,14 @@ package com.leetcode.array;
 public class Array0011_ContainerWithMostWater {
 
     public static void main(String[] args) {
-        int[] nums = {1,8,6,2,5,4,8,3,8};
+        int[] nums = {1,8,6,2,5,4,8,3,7};
         Array0011_ContainerWithMostWater algorithm = new Array0011_ContainerWithMostWater();
         int result = algorithm.maxArea(nums);
         System.out.println(result);
     }
 
     public int maxArea(int[] height) {
-        return bruteForce(height);
+        return twoPointer(height);
     }
 
     /**
@@ -48,6 +48,25 @@ public class Array0011_ContainerWithMostWater {
                 int minHeight = Math.min(height[i], height[j]);
                 int width = j - i;
                 max = Math.max(max, minHeight * width);
+            }
+        }
+        return max;
+    }
+
+    /**
+     * 双指针, 一开始指针指向首尾, 然后哪个数值小, 哪个指针移动
+     * @param height
+     * @return
+     */
+    public int twoPointer(int[] height){
+        int start = 0;
+        int end = height.length - 1;
+        int max = 0;
+        while (start < end){
+            if (height[start] < height[end]){
+                max = Math.max(max, (end - start) * height[start++]);
+            }else {
+                max = Math.max(max, (end - start) * height[end--]);
             }
         }
         return max;
