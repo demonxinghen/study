@@ -25,14 +25,13 @@ public class Array0004_MedianOfTwoSortedArrays {
         int[] nums1 = {1, 3, 5, 6};
         int[] nums2 = {2, 4};
         Array0004_MedianOfTwoSortedArrays algorithm = new Array0004_MedianOfTwoSortedArrays();
-        // double result = algorithm.findMedianSortedArrays(nums1, nums2);
-        // System.out.println(result);
-        int[] ints = algorithm.mergeTwoArray(nums1, nums2);
-        System.out.println(algorithm.calcMedian(ints));
+        double result = algorithm.findMedianSortedArrays(nums1, nums2);
+        System.out.println(result);
     }
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        return 0;
+        int[] result = mergeTwoArray(nums1, nums2);
+        return calcMedian(result);
     }
 
     /**
