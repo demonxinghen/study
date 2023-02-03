@@ -3,6 +3,8 @@ package com.leetcode.array;
 import java.util.*;
 
 /**
+ * level: medium
+ * <p>
  * Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
  * <p>
  * Notice that the solution set must not contain duplicate triplets.
@@ -44,6 +46,7 @@ public class Array0015_3Sum {
 
     /**
      * 双指针的基础上, 利用set天然去重的特性
+     *
      * @param nums
      * @return
      */
@@ -76,6 +79,7 @@ public class Array0015_3Sum {
 
     /**
      * 利用双指针
+     *
      * @param nums
      * @return
      */

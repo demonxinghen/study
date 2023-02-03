@@ -2,19 +2,19 @@ package com.leetcode.array;
 
 /**
  * Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
- *
+ * <p>
  * The overall run time complexity should be O(log (m+n)).
- *
+ * <p>
  * level: hard
- *
+ * <p>
  * Example 1:
- *
+ * <p>
  * Input: nums1 = [1,3], nums2 = [2]
  * Output: 2.00000
  * Explanation: merged array = [1,2,3] and median is 2.
- *
+ * <p>
  * Example 2:
- *
+ * <p>
  * Input: nums1 = [1,2], nums2 = [3,4]
  * Output: 2.50000
  * Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
@@ -36,6 +36,7 @@ public class Array0004_MedianOfTwoSortedArrays {
 
     /**
      * 合并两个数组到一个数组,然后取中间值
+     *
      * @param nums1
      * @param nums2
      * @return
@@ -45,23 +46,23 @@ public class Array0004_MedianOfTwoSortedArrays {
         int i = 0;
         int j = 0;
         int h = 0;
-        while (i < nums1.length && j < nums2.length){
-            if (nums1[i] < nums2[j]){
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] < nums2[j]) {
                 result[h++] = nums1[i++];
-            }else {
+            } else {
                 result[h++] = nums2[j++];
             }
         }
-        while (i < nums1.length){
+        while (i < nums1.length) {
             result[h++] = nums1[i++];
         }
-        while (j < nums2.length){
+        while (j < nums2.length) {
             result[h++] = nums2[j++];
         }
         return result;
     }
 
-    public double calcMedian(int[] nums){
+    public double calcMedian(int[] nums) {
         return nums.length % 2 == 0 ? (nums[nums.length / 2] + nums[nums.length / 2 - 1]) / 2.0 : nums[nums.length / 2] / 1.0;
     }
 }
