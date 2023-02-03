@@ -11,14 +11,20 @@ package com.leetcode.array;
  * <p>
  * Notice that you may not slant the container.
  * <p>
+ * <p>
+ * <p>
  * Example 1:
  * <p>
  * Input: height = [1,8,6,2,5,4,8,3,7]
+ * <p>
  * Output: 49
+ * <p>
  * Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+ * <p>
  * Example 2:
  * <p>
  * Input: height = [1,1]
+ * <p>
  * Output: 1
  * <p>
  * 简单理解,就是n块不同高度的木板竖立在那,找出面积最大的两块木板(只能是长方形或正方形)

@@ -16,12 +16,17 @@ import java.util.Arrays;
  * Example 1:
  * <p>
  * Input: nums = [-1,2,1,-4], target = 1
+ * <p>
  * Output: 2
+ * <p>
  * Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+ * <p>
  * Example 2:
  * <p>
  * Input: nums = [0,0,0], target = 1
+ * <p>
  * Output: 0
+ * <p>
  * Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
  */
 public class Array0016_3SumCloset {

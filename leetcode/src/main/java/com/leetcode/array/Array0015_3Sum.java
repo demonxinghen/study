@@ -14,22 +14,35 @@ import java.util.*;
  * Example 1:
  * <p>
  * Input: nums = [-1,0,1,2,-1,-4]
+ * <p>
  * Output: [[-1,-1,2],[-1,0,1]]
+ * <p>
  * Explanation:
+ * <p>
  * nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
+ * <p>
  * nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+ * <p>
  * nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+ * <p>
  * The distinct triplets are [-1,0,1] and [-1,-1,2].
+ * <p>
  * Notice that the order of the output and the order of the triplets does not matter.
+ * <p>
  * Example 2:
  * <p>
  * Input: nums = [0,1,1]
+ * <p>
  * Output: []
+ * <p>
  * Explanation: The only possible triplet does not sum up to 0.
+ * <p>
  * Example 3:
  * <p>
  * Input: nums = [0,0,0]
+ * <p>
  * Output: [[0,0,0]]
+ * <p>
  * Explanation: The only possible triplet sums up to 0.
  */
 public class Array0015_3Sum {
