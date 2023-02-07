@@ -87,20 +87,28 @@ public class Array0037_SudokuSolver {
     }
 
     public boolean solve(char[][] board, int row, int col) {
-        if (row == 9) return true;
-        if (col == 9) return solve(board, row + 1, 0);
+        if (row == 9) return true; // 到最后一行了,说明填完了
+        if (col == 9) return solve(board, row + 1, 0); // 到最后一列了,开始填下一行
         if (board[row][col] != '.') return solve(board, row, col + 1);
         for (int i = '1'; i <= '9'; i++) {
             char c = (char) i;
-            if (isSafe(board, c, row, col)) {
+            if (isSafe(board, c, row, col)) { // 一个数一个数去尝试
                 board[row][col] = c;
-                if (solve(board, row, col + 1)) return true;
+                if (solve(board, row, col + 1)) return true; // 如果这里失败了,则回溯,置为.,下一轮开始
                 board[row][col] = '.';
             }
         }
         return false;
     }
 
+    /**
+     * 准备在x,y填入一个数,并判断同行,同列,3*3中是否有相同数字,没有则填入
+     * @param board
+     * @param toPlace
+     * @param x
+     * @param y
+     * @return
+     */
     public boolean isSafe(char[][] board, char toPlace, int x, int y) {
         for (int i = 0; i < 9; i++) {
             if (board[i][y] == toPlace) return false;
