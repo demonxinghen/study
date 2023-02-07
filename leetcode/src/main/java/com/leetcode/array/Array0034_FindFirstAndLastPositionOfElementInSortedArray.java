@@ -26,7 +26,7 @@ package com.leetcode.array;
 public class Array0034_FindFirstAndLastPositionOfElementInSortedArray {
 
     public static void main(String[] args) {
-        int[] nums = {};
+        int[] nums = {5,7,7,8,8,10};
         int target = 8;
         Array0034_FindFirstAndLastPositionOfElementInSortedArray algorithm = new Array0034_FindFirstAndLastPositionOfElementInSortedArray();
         int[] range = algorithm.searchRange(nums, target);
@@ -39,6 +39,14 @@ public class Array0034_FindFirstAndLastPositionOfElementInSortedArray {
         return searchRangeBinary(nums, 0, nums.length - 1, target);
     }
 
+    /**
+     * 二分法
+     * @param nums
+     * @param i
+     * @param j
+     * @param target
+     * @return
+     */
     private int[] searchRangeBinary(int[] nums, int i, int j, int target) {
         if (i <= j && j < nums.length){
             int mid = i + (j - i) / 2;
@@ -48,11 +56,12 @@ public class Array0034_FindFirstAndLastPositionOfElementInSortedArray {
                 return searchRangeBinary(nums, i, mid - 1, target);
             }
             int start = mid;
-            while (start < nums.length && start >= 1 && nums[start - 1] == target){
+            // 这里的代码是否会导致时间复杂度变为O(n)
+            while (start < j && start >= 1 && nums[start - 1] == target){
                 start--;
             }
             int end = mid;
-            while (end < nums.length - 1 && nums[end + 1] == target){
+            while (end < j && nums[end + 1] == target){
                 end++;
             }
             return new int[]{start, end};
