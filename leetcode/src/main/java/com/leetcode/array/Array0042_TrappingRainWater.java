@@ -27,7 +27,7 @@ public class Array0042_TrappingRainWater {
 
     public static void main(String[] args) {
         Array0042_TrappingRainWater algorithm = new Array0042_TrappingRainWater();
-        int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+        int[] height = {4,2,0,3,2,5};
         algorithm.trap(height);
     }
 
@@ -36,7 +36,36 @@ public class Array0042_TrappingRainWater {
         System.out.println(result);
         System.out.println(dynamicProgramming(height));
         System.out.println(stackStore(height));
+        System.out.println(twoPointers(height));
         return result;
+    }
+
+    /**
+     * 双指针
+     * @param height
+     * @return
+     */
+    private int twoPointers(int[] height) {
+        int left = 0, right = height.length - 1;
+        int ans = 0, leftMax = 0, rightMax = 0;
+        while (left < right){
+            if (height[left] < height[right]){
+                if (height[left] >= leftMax){
+                    leftMax = height[left];
+                }else {
+                    ans += (leftMax - height[left]);
+                }
+                left++;
+            }else {
+                if (height[right] >= rightMax){
+                    rightMax = height[right];
+                }else {
+                    ans += (rightMax - height[right]);
+                }
+                right--;
+            }
+        }
+        return ans;
     }
 
     /**
@@ -55,7 +84,7 @@ public class Array0042_TrappingRainWater {
                     break;
                 }
                 int distance = current - stack.peek() - 1;
-                int boundedHeight = Math.min(height[current], height[stack.peek()] - height[top]);
+                int boundedHeight = Math.min(height[current], height[stack.peek()]) - height[top];
 
                 ans += distance * boundedHeight;
             }
@@ -92,6 +121,11 @@ public class Array0042_TrappingRainWater {
         return ans;
     }
 
+    /**
+     * 暴力破解
+     * @param height
+     * @return
+     */
     private int bruteForce(int[] height) {
         int ans = 0;
         int size = height.length;
