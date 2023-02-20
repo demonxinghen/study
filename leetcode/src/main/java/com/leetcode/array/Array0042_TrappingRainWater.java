@@ -32,7 +32,36 @@ public class Array0042_TrappingRainWater {
     public int trap(int[] height) {
         int result = bruteForce(height);
         System.out.println(result);
+        System.out.println(dynamicProgramming(height));
         return result;
+    }
+
+    /**
+     * 动态规划, 和暴力破解的区别在于寻找最大木板之后存在了数组中, 减少了不必要的循环
+     * @param height
+     * @return
+     */
+    private int dynamicProgramming(int[] height) {
+        if (height.length == 0) return 0;
+        int ans = 0;
+        int size = height.length;
+
+        int[] leftMax = new int[size], rightMax = new int[size];
+
+        leftMax[0] = height[0];
+        for (int i = 1; i < height.length; i++) {
+            leftMax[i] = Math.max(height[i], leftMax[i - 1]);
+        }
+
+        rightMax[size - 1] = height[size - 1];
+        for (int i = size - 2; i >= 0; i--) {
+            rightMax[i] = Math.max(height[i], rightMax[i + 1]);
+        }
+
+        for (int i = 1; i < height.length - 1; i++) {
+            ans += Math.min(leftMax[i], rightMax[i]) - height[i];
+        }
+        return ans;
     }
 
     private int bruteForce(int[] height) {
