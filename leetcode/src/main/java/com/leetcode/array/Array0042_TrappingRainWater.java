@@ -1,5 +1,7 @@
 package com.leetcode.array;
 
+import java.util.Stack;
+
 /**
  * level: hard
  * <p>
@@ -33,7 +35,33 @@ public class Array0042_TrappingRainWater {
         int result = bruteForce(height);
         System.out.println(result);
         System.out.println(dynamicProgramming(height));
+        System.out.println(stackStore(height));
         return result;
+    }
+
+    /**
+     * 栈的使用, 没看懂
+     * @param height
+     * @return
+     */
+    private int stackStore(int[] height) {
+        int ans = 0, current = 0;
+        Stack<Integer> stack = new Stack<>();
+
+        while (current < height.length){
+            while (!stack.empty() && height[current] > height[stack.peek()]){
+                int top = stack.pop();
+                if (stack.empty()){
+                    break;
+                }
+                int distance = current - stack.peek() - 1;
+                int boundedHeight = Math.min(height[current], height[stack.peek()] - height[top]);
+
+                ans += distance * boundedHeight;
+            }
+            stack.push(current++);
+        }
+        return ans;
     }
 
     /**
