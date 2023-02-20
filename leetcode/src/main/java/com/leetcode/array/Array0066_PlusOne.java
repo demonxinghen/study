@@ -50,6 +50,11 @@ import java.util.Arrays;
 public class Array0066_PlusOne {
 
     public static void main(String[] args) {
+        int[] a = new int[]{1,2,3};
+        a = new int[4];
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
         Array0066_PlusOne algorithm = new Array0066_PlusOne();
         int[] digits = {9,9,9};
         int[] plusOne = algorithm.plusOne(digits);
@@ -69,12 +74,8 @@ public class Array0066_PlusOne {
             index--;
         }
         if (index == -1){
-            int[] digit = new int[digits.length + 1];
-            digit[0] = 1;
-            for (int i = 0; i < digits.length; i++) {
-                digit[i + 1] = digits[i];
-            }
-            return digit;
+            digits = new int[digits.length + 1]; // 优化, 这种情况下, 除了第一位是1, 其余全是0, 所以不需要拷贝数组.
+            digits[0] = 1;
         }
         return digits;
     }
