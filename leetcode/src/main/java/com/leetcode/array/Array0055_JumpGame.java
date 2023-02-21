@@ -27,8 +27,6 @@ package com.leetcode.array;
  */
 public class Array0055_JumpGame {
 
-    private boolean flag = false;
-
     public static void main(String[] args) {
         Array0055_JumpGame algorithm = new Array0055_JumpGame();
         int[] nums = {1, 2, 3};
