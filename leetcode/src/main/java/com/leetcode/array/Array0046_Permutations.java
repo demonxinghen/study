@@ -42,8 +42,8 @@ public class Array0046_Permutations {
     }
 
     public List<List<Integer>> permute(int[] nums) {
-        backtracking(nums);
         used = new boolean[nums.length];
+        backtracking(nums);
         return res;
     }
 
