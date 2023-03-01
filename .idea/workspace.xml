@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: leetcode 题目48 Rotate Image">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0049_GroupAnagrams.java" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: leetcode 题目54 Spiral Matrix">
+      <change afterPath="$PROJECT_DIR$/99-开发中遇见的问题/02-编译源码遇见的错误/01-SpringBoot/01-3.0.x版本.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0056_MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array1675_MinimizeDeviationInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,46 +83,7 @@
       <recent name="com.leetcode.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array0049_GroupAnagrams">
-    <configuration name="Array0046_Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0046_Permutations" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array0047_PermutationsⅡ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0047_PermutationsⅡ" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array0048_RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0048_RotateImage" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Array1675_MinimizeDeviationInArray">
     <configuration name="Array0049_GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0049_GroupAnagrams" />
       <module name="leetcode" />
@@ -134,8 +97,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array0540_SingleElementInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0540_SingleElementInASortedArray" />
+    <configuration name="Array0053_MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0053_MaximumSubarray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array0054_SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0054_SpiralMatrix" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array0056_MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0056_MergeIntervals" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array1675_MinimizeDeviationInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array1675_MinimizeDeviationInArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -155,20 +157,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Array0046_Permutations" />
-      <item itemvalue="Application.Array0047_PermutationsⅡ" />
-      <item itemvalue="Application.Array0048_RotateImage" />
+      <item itemvalue="Application.Array1675_MinimizeDeviationInArray" />
+      <item itemvalue="Application.Array0053_MaximumSubarray" />
+      <item itemvalue="Application.Array0054_SpiralMatrix" />
+      <item itemvalue="Application.Array0056_MergeIntervals" />
       <item itemvalue="Application.Array0049_GroupAnagrams" />
-      <item itemvalue="Application.Array0540_SingleElementInASortedArray" />
       <item itemvalue="Spring Boot.DataStructureApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array1675_MinimizeDeviationInArray" />
+        <item itemvalue="Application.Array0056_MergeIntervals" />
+        <item itemvalue="Application.Array0054_SpiralMatrix" />
+        <item itemvalue="Application.Array0053_MaximumSubarray" />
         <item itemvalue="Application.Array0049_GroupAnagrams" />
-        <item itemvalue="Application.Array0048_RotateImage" />
-        <item itemvalue="Application.Array0540_SingleElementInASortedArray" />
-        <item itemvalue="Application.Array0047_PermutationsⅡ" />
-        <item itemvalue="Application.Array0046_Permutations" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +199,11 @@
       <workItem from="1676858334253" duration="1995000" />
       <workItem from="1676861731326" duration="9990000" />
       <workItem from="1676878079846" duration="35019000" />
-      <workItem from="1677118880594" duration="1993000" />
+      <workItem from="1677118880594" duration="10644000" />
+      <workItem from="1677202197777" duration="4057000" />
+      <workItem from="1677217683509" duration="1936000" />
+      <workItem from="1677565146543" duration="644000" />
+      <workItem from="1677637798374" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 测试提交">
       <created>1671526654286</created>
@@ -493,7 +499,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677048220910</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat: leetcode 题目49 Group Anagrams">
+      <created>1677121127814</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1677121127814</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: leetcode 题目53 Maximum Subarray">
+      <created>1677121790511</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677121790511</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: leetcode 题目54 Spiral Matrix">
+      <created>1677133772702</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1677133772702</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,9 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目34 Find First and Last Position of Element in Sorted Array" />
-    <MESSAGE value="feat: leetcode 题目35 Search Insert Position" />
-    <MESSAGE value="feat: leetcode 题目36 Valid Sudoku" />
     <MESSAGE value="feat: leetcode 题目37 Sudoku Solver 数独解法, 看都看不懂!!!" />
     <MESSAGE value="feat: leetcode 题目37 Sudoku Solver 添加个人理解" />
     <MESSAGE value="feat: leetcode 题目41 First Missing Positive" />
@@ -536,7 +560,10 @@
     <MESSAGE value="feat: leetcode 题目47 PermutationsⅡ" />
     <MESSAGE value="feat: leetcode 题目540 Single Element in a Sorted Array" />
     <MESSAGE value="feat: leetcode 题目48 Rotate Image" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: leetcode 题目48 Rotate Image" />
+    <MESSAGE value="feat: leetcode 题目49 Group Anagrams" />
+    <MESSAGE value="feat: leetcode 题目53 Maximum Subarray" />
+    <MESSAGE value="feat: leetcode 题目54 Spiral Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: leetcode 题目54 Spiral Matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -570,6 +597,21 @@
           <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0049_GroupAnagrams.java</url>
           <line>49</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0049_GroupAnagrams.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0054_SpiralMatrix.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0054_SpiralMatrix.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
