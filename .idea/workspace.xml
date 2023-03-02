@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 测试提交">
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/com/example/datastructure/VmOptionsDemo.java" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: leetcode 题目54 Spiral Matrix">
+      <change afterPath="$PROJECT_DIR$/99-开发中遇见的问题/02-编译源码遇见的错误/01-SpringBoot/01-3.0.x版本.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0056_MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array1675_MinimizeDeviationInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +28,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_181/src.zip!/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,6 +41,11 @@
         <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.5.4" />
         <option name="userSettingsFile" value="D:\IdeaProjects\new\study\03-构建工具\03-Maven\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="2JAggoCWxYPOpcg1KqGK54igDc3" />
@@ -51,26 +61,87 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Subversion&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;36397fe12f935090ad150c6ce0c258d4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RecursionStepDem">
-    <configuration name="RecursionStepDem" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.VmOptionsDemo" />
-      <module name="data-structure" />
-      <option name="VM_PARAMETERS" value="-Dcom.example.datastructure.VmOptions.value=998 -Dsun.nio.PageAlignDirectMemory=999" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leetcode.array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Array1675_MinimizeDeviationInArray">
+    <configuration name="Array0049_GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0049_GroupAnagrams" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.*" />
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array0053_MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0053_MaximumSubarray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array0054_SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0054_SpiralMatrix" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array0056_MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0056_MergeIntervals" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array1675_MinimizeDeviationInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array1675_MinimizeDeviationInArray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,16 +157,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RecursionStepDem" />
+      <item itemvalue="Application.Array1675_MinimizeDeviationInArray" />
+      <item itemvalue="Application.Array0053_MaximumSubarray" />
+      <item itemvalue="Application.Array0054_SpiralMatrix" />
+      <item itemvalue="Application.Array0056_MergeIntervals" />
+      <item itemvalue="Application.Array0049_GroupAnagrams" />
       <item itemvalue="Spring Boot.DataStructureApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RecursionStepDem" />
+        <item itemvalue="Application.Array1675_MinimizeDeviationInArray" />
+        <item itemvalue="Application.Array0056_MergeIntervals" />
+        <item itemvalue="Application.Array0054_SpiralMatrix" />
+        <item itemvalue="Application.Array0053_MaximumSubarray" />
+        <item itemvalue="Application.Array0049_GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\徐辉\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="" />
@@ -105,7 +187,23 @@
       <updated>1671526416516</updated>
       <workItem from="1671526417679" duration="468000" />
       <workItem from="1671527090817" duration="1380000" />
-      <workItem from="1671589064375" duration="917000" />
+      <workItem from="1671589064375" duration="6204000" />
+      <workItem from="1671679759715" duration="3494000" />
+      <workItem from="1672019841900" duration="599000" />
+      <workItem from="1672976398304" duration="1335000" />
+      <workItem from="1675302278863" duration="53871000" />
+      <workItem from="1675733510643" duration="12620000" />
+      <workItem from="1675756696450" duration="7174000" />
+      <workItem from="1675821624238" duration="11779000" />
+      <workItem from="1676515376290" duration="4405000" />
+      <workItem from="1676858334253" duration="1995000" />
+      <workItem from="1676861731326" duration="9990000" />
+      <workItem from="1676878079846" duration="35019000" />
+      <workItem from="1677118880594" duration="10644000" />
+      <workItem from="1677202197777" duration="4057000" />
+      <workItem from="1677217683509" duration="1936000" />
+      <workItem from="1677565146543" duration="644000" />
+      <workItem from="1677637798374" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 测试提交">
       <created>1671526654286</created>
@@ -114,15 +212,358 @@
       <option name="project" value="LOCAL" />
       <updated>1671526654286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: 代码中获取-D属性的两种方式, 以及部分无法被System.getProperty获取的属性">
+      <created>1671590202022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671590202022</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: LaTeX公式">
+      <created>1672976517631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672976517631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: leetcode 题目1 Two Sum">
+      <created>1675316822680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675316822680</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: leetcode 题目4 Median of Two Sorted Arrays">
+      <created>1675320749845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675320749845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: leetcode 题目4 Median of Two Sorted Arrays">
+      <created>1675320788512</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675320788512</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: leetcode 题目11 Container With Most Water 解题失败, 耗时过长">
+      <created>1675324342460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675324342460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: leetcode 题目11 Container With Most Water 双指针解决, 复杂度O(n)">
+      <created>1675325698664</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675325698664</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: leetcode 题目15 3Sum">
+      <created>1675389305235</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675389305235</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: leetcode 题目16 3Sum Closet">
+      <created>1675394778636</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675394778636</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: 修改JavaDoc样式">
+      <created>1675395019208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675395019208</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: leetcode 题目18 4Sum 或 kSum, 未完全掌握">
+      <created>1675409098594</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675409098594</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: leetcode 题目26 Remove Duplicates from Sorted Array">
+      <created>1675412469742</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675412469742</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: leetcode 题目27 Remove Element">
+      <created>1675651125404</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675651125404</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: leetcode 题目31 Next Permutation">
+      <created>1675666882272</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675666882272</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: leetcode 题目33 Search in Rotated Sorted Array 未完全掌握">
+      <created>1675670975648</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675670975648</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: leetcode 题目34 Find First and Last Position of Element in Sorted Array">
+      <created>1675675869553</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675675869553</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: leetcode 题目35 Search Insert Position">
+      <created>1675748478941</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675748478941</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: leetcode 题目36 Valid Sudoku">
+      <created>1675754973299</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675754973299</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: leetcode 题目37 Sudoku Solver 数独解法, 看都看不懂!!!">
+      <created>1675755702281</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675755702281</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: leetcode 题目37 Sudoku Solver 添加个人理解">
+      <created>1675756554931</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675756554931</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: leetcode 题目41 First Missing Positive">
+      <created>1675762987254</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675762987254</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: leetcode 题目39 Combination Sum">
+      <created>1675925174455</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675925174455</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: leetcode 回溯的使用">
+      <created>1675925191710</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675925191710</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: windows cmd查看端口命令">
+      <created>1676266789108</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676266789108</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: 修改订阅地址节点,比如不要香港节点">
+      <created>1676269475765</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676269475765</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: leetcode 题目40 Combination Sum II">
+      <created>1676859850851</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676859850851</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: leetcode 题目42 Trapping Rain Water暴力破解">
+      <created>1676864132236</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676864132236</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: leetcode 题目42 Trapping Rain Water动态规划">
+      <created>1676871957468</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676871957468</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: 动态规划的使用">
+      <created>1676874204687</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676874204687</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: leetcode 题目42 Trapping Rain Water栈的使用, 没看懂">
+      <created>1676874842460</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676874842460</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: leetcode 题目42 Trapping Rain Water 双指针">
+      <created>1676876030147</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676876030147</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: leetcode 题目66 Plus One">
+      <created>1676877684195</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676877684195</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat: leetcode 题目66 Plus One">
+      <created>1676878013002</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1676878013002</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: leetcode 题目61 N Queens K皇后问题">
+      <created>1676882506660</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676882506660</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
+      <created>1676948639551</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1676948639551</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: leetcode 题目55 Jump Game">
+      <created>1676958673960</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1676958673960</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: leetcode 题目45 Jump Game II">
+      <created>1676961627875</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1676961627875</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: leetcode 题目46 Permutations">
+      <created>1676965762612</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1676965762612</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: leetcode 题目47 PermutationsⅡ">
+      <created>1676968113528</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1676968113528</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: leetcode 题目540 Single Element in a Sorted Array">
+      <created>1676971497349</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1676971497349</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: leetcode 题目48 Rotate Image">
+      <created>1677048220910</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1677048220910</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat: leetcode 题目49 Group Anagrams">
+      <created>1677121127814</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1677121127814</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: leetcode 题目53 Maximum Subarray">
+      <created>1677121790511</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677121790511</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: leetcode 题目54 Spiral Matrix">
+      <created>1677133772702</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1677133772702</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 测试提交" />
+    <MESSAGE value="feat: leetcode 题目37 Sudoku Solver 数独解法, 看都看不懂!!!" />
+    <MESSAGE value="feat: leetcode 题目37 Sudoku Solver 添加个人理解" />
+    <MESSAGE value="feat: leetcode 题目41 First Missing Positive" />
+    <MESSAGE value="feat: leetcode 题目39 Combination Sum" />
+    <MESSAGE value="feat: leetcode 回溯的使用" />
+    <MESSAGE value="feat: windows cmd查看端口命令" />
+    <MESSAGE value="feat: 修改订阅地址节点,比如不要香港节点" />
+    <MESSAGE value="feat: leetcode 题目40 Combination Sum II" />
+    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water暴力破解" />
+    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water动态规划" />
+    <MESSAGE value="feat: 动态规划的使用" />
+    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water栈的使用, 没看懂" />
+    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water 双指针" />
+    <MESSAGE value="feat: leetcode 题目66 Plus One" />
+    <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题" />
+    <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理" />
+    <MESSAGE value="feat: leetcode 题目55 Jump Game" />
+    <MESSAGE value="feat: leetcode 题目45 Jump Game II" />
+    <MESSAGE value="feat: leetcode 题目46 Permutations" />
+    <MESSAGE value="feat: leetcode 题目47 PermutationsⅡ" />
+    <MESSAGE value="feat: leetcode 题目540 Single Element in a Sorted Array" />
+    <MESSAGE value="feat: leetcode 题目48 Rotate Image" />
+    <MESSAGE value="feat: leetcode 题目49 Group Anagrams" />
+    <MESSAGE value="feat: leetcode 题目53 Maximum Subarray" />
+    <MESSAGE value="feat: leetcode 题目54 Spiral Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: leetcode 题目54 Spiral Matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -131,6 +572,46 @@
           <url>jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_181/src.zip!/java/lang/Integer.java</url>
           <line>786</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0018_4Sum.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0039_CombinationSum.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0042_TrappingRainWater.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0047_PermutationsⅡ.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0049_GroupAnagrams.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0049_GroupAnagrams.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0054_SpiralMatrix.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0054_SpiralMatrix.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
