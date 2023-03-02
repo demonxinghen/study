@@ -1,0 +1,1 @@
+打开 chrome://sync-internals/， 点击 Trigger GetUpdates
