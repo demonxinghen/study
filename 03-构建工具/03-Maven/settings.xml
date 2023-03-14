@@ -126,7 +126,7 @@ under the License.
     <server>
       <id>nexus</id>
       <username>admin</username>
-      <password>8ace7311-3722-4ce8-a257-7604cb9a4b42</password>
+      <password>a8673731</password>
     </server>
     <!-- Another sample, using keys to authenticate.
     <server>
@@ -165,7 +165,7 @@ under the License.
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
       <name>我自己的私服</name>
-      <url>http://111.231.6.231:8089/repository/maven-public/</url>
+      <url>http://101.35.240.154:8089/repository/maven-public/</url>
     </mirror>
   </mirrors>
 
@@ -226,7 +226,7 @@ under the License.
         <repository>
           <id>nexus</id>
           <name>Nexus</name>
-          <url>http://111.231.6.231:8089/repository/maven-public/</url>
+          <url>http://101.35.240.154:8089/repository/maven-public/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
@@ -235,7 +235,7 @@ under the License.
         <pluginRepository>
           <id>nexus</id>
           <name>Nexus</name>
-          <url>http://111.231.6.231:8089/repository/maven-public/</url>
+          <url>http://101.35.240.154:8089/repository/maven-public/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </pluginRepository>
