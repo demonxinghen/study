@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: leetcode 题目54 Spiral Matrix">
-      <change afterPath="$PROJECT_DIR$/99-开发中遇见的问题/02-编译源码遇见的错误/01-SpringBoot/01-3.0.x版本.md" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: maven打包时差8小时">
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/AbstractElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ClassElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ElementComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ElementFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ElementUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/FieldElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/GenerationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/MethodElement.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0056_MergeIntervals.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array1675_MinimizeDeviationInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitToolBoxStore">
@@ -39,7 +49,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\repo" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\IdeaProjects\new\study\03-构建工具\03-Maven\settings.xml" />
+        <option name="userSettingsFile" value="D:\IdeaProjects\study\03-构建工具\03-Maven\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -57,28 +67,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;36397fe12f935090ad150c6ce0c258d4&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/IdeaProjects/study/08-Java/03-Idea",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "36397fe12f935090ad150c6ce0c258d4",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.leetcode.array" />
     </key>
@@ -203,14 +220,12 @@
       <workItem from="1677202197777" duration="4057000" />
       <workItem from="1677217683509" duration="1936000" />
       <workItem from="1677565146543" duration="644000" />
-      <workItem from="1677637798374" duration="313000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat: 测试提交">
-      <created>1671526654286</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1671526654286</updated>
+      <workItem from="1677637798374" duration="553000" />
+      <workItem from="1677652479730" duration="9029000" />
+      <workItem from="1677739134705" duration="613000" />
+      <workItem from="1678758252724" duration="7731000" />
+      <workItem from="1678778791892" duration="1916000" />
+      <workItem from="1678952827982" duration="2233000" />
     </task>
     <task id="LOCAL-00002" summary="feat: 代码中获取-D属性的两种方式, 以及部分无法被System.getProperty获取的属性">
       <created>1671590202022</created>
@@ -520,7 +535,42 @@
       <option name="project" value="LOCAL" />
       <updated>1677133772702</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat: SpringBoot编译源码出错">
+      <created>1677638343620</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1677638343620</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: 初识gradle part1">
+      <created>1677663737529</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677663737529</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: 更新我的nexus">
+      <created>1678763988952</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1678763988952</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: 更新我的nexus">
+      <created>1678771829171</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1678771829171</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat: maven打包时差8小时">
+      <created>1678780414119</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1678780414119</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,10 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目37 Sudoku Solver 数独解法, 看都看不懂!!!" />
-    <MESSAGE value="feat: leetcode 题目37 Sudoku Solver 添加个人理解" />
-    <MESSAGE value="feat: leetcode 题目41 First Missing Positive" />
-    <MESSAGE value="feat: leetcode 题目39 Combination Sum" />
     <MESSAGE value="feat: leetcode 回溯的使用" />
     <MESSAGE value="feat: windows cmd查看端口命令" />
     <MESSAGE value="feat: 修改订阅地址节点,比如不要香港节点" />
@@ -563,7 +609,11 @@
     <MESSAGE value="feat: leetcode 题目49 Group Anagrams" />
     <MESSAGE value="feat: leetcode 题目53 Maximum Subarray" />
     <MESSAGE value="feat: leetcode 题目54 Spiral Matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: leetcode 题目54 Spiral Matrix" />
+    <MESSAGE value="feat: SpringBoot编译源码出错" />
+    <MESSAGE value="feat: 初识gradle part1" />
+    <MESSAGE value="feat: 更新我的nexus" />
+    <MESSAGE value="feat: maven打包时差8小时" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: maven打包时差8小时" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
