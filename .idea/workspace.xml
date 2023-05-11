@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 删除镜像文件">
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 遗漏文件">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-Git/git配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-Git/git配置.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +89,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/IdeaProjects/study/08-Java/03-Idea",
+    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/03-构建工具/03-Maven",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,6 +108,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03-构建工具/03-Maven" />
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -261,14 +264,7 @@
       <workItem from="1683701498713" duration="580000" />
       <workItem from="1683702097674" duration="1242000" />
       <workItem from="1683771838958" duration="3898000" />
-      <workItem from="1683776387031" duration="3961000" />
-    </task>
-    <task id="LOCAL-00013" summary="feat: leetcode 题目26 Remove Duplicates from Sorted Array">
-      <created>1675412469742</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1675412469742</updated>
+      <workItem from="1683776387031" duration="4511000" />
     </task>
     <task id="LOCAL-00014" summary="feat: leetcode 题目27 Remove Element">
       <created>1675651125404</created>
@@ -606,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683792536114</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="feat: 遗漏文件">
+      <created>1683793070604</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1683793070604</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目66 Plus One" />
     <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题" />
     <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理" />
     <MESSAGE value="feat: leetcode 题目55 Jump Game" />
@@ -649,7 +651,8 @@
     <MESSAGE value="feat: Spring Bean生命周期" />
     <MESSAGE value="feat: 遗漏图片" />
     <MESSAGE value="feat: 删除镜像文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 删除镜像文件" />
+    <MESSAGE value="feat: 遗漏文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 遗漏文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
