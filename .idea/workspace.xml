@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: Intel cpu发展史">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/test/java/com/example/spring/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 删除镜像文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -275,35 +261,7 @@
       <workItem from="1683701498713" duration="580000" />
       <workItem from="1683702097674" duration="1242000" />
       <workItem from="1683771838958" duration="3898000" />
-      <workItem from="1683776387031" duration="2364000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat: leetcode 题目15 3Sum">
-      <created>1675389305235</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1675389305235</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat: leetcode 题目16 3Sum Closet">
-      <created>1675394778636</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1675394778636</updated>
-    </task>
-    <task id="LOCAL-00011" summary="feat: 修改JavaDoc样式">
-      <created>1675395019208</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1675395019208</updated>
-    </task>
-    <task id="LOCAL-00012" summary="feat: leetcode 题目18 4Sum 或 kSum, 未完全掌握">
-      <created>1675409098594</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1675409098594</updated>
+      <workItem from="1683776387031" duration="3961000" />
     </task>
     <task id="LOCAL-00013" summary="feat: leetcode 题目26 Remove Duplicates from Sorted Array">
       <created>1675412469742</created>
@@ -620,7 +578,35 @@
       <option name="project" value="LOCAL" />
       <updated>1683774858221</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat: Spring Bean生命周期">
+      <created>1683791388603</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1683791388603</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: 遗漏图片">
+      <created>1683791530667</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1683791530667</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat: 删除镜像文件">
+      <created>1683792436312</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1683792436312</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: 删除镜像文件">
+      <created>1683792536114</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1683792536114</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,9 +624,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 动态规划的使用" />
-    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water栈的使用, 没看懂" />
-    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water 双指针" />
     <MESSAGE value="feat: leetcode 题目66 Plus One" />
     <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题" />
     <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理" />
@@ -663,7 +646,10 @@
     <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机软件" />
     <MESSAGE value="feat: flutter遇见的错误" />
     <MESSAGE value="feat: Intel cpu发展史" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Intel cpu发展史" />
+    <MESSAGE value="feat: Spring Bean生命周期" />
+    <MESSAGE value="feat: 遗漏图片" />
+    <MESSAGE value="feat: 删除镜像文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 删除镜像文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
