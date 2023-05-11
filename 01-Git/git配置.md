@@ -45,3 +45,10 @@ git config --global user.email demonxinghen@126.com
 ```text
 将5中的--global改为--local, 或者不要, 默认值即为--local,只对本仓库有效
 ```
+
+
+已经加入版本控制的文件要移除版本控制
+```shell
+git rm -r --cached <filename>
+git update-index
+```
