@@ -12,6 +12,16 @@ import org.springframework.beans.factory.InitializingBean;
  */
 public class MyComponent implements InitializingBean, DisposableBean {
 
+    public MyComponent() {
+        System.out.println("无参构造");
+    }
+
+    private String name = "Hellooo";
+
+    {
+        System.out.println(name + "World");
+    }
+
     public void hello(){
         System.out.println("hello world");
     }

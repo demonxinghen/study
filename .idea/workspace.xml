@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 遗漏文件">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 测试恢复commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Git/git配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-Git/git配置.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-构建工具/03-Maven/nexus-3.42.0-01-mac.tgz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "36397fe12f935090ad150c6ce0c258d4",
     "vue.rearranger.settings.migration": "true"
   }
@@ -264,21 +267,7 @@
       <workItem from="1683701498713" duration="580000" />
       <workItem from="1683702097674" duration="1242000" />
       <workItem from="1683771838958" duration="3898000" />
-      <workItem from="1683776387031" duration="4511000" />
-    </task>
-    <task id="LOCAL-00014" summary="feat: leetcode 题目27 Remove Element">
-      <created>1675651125404</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1675651125404</updated>
-    </task>
-    <task id="LOCAL-00015" summary="feat: leetcode 题目31 Next Permutation">
-      <created>1675666882272</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1675666882272</updated>
+      <workItem from="1683776387031" duration="7856000" />
     </task>
     <task id="LOCAL-00016" summary="feat: leetcode 题目33 Search in Rotated Sorted Array 未完全掌握">
       <created>1675670975648</created>
@@ -609,7 +598,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683793070604</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="feat: 测试恢复commit">
+      <created>1683793543390</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1683793543391</updated>
+    </task>
+    <task id="LOCAL-00064" summary="feat: 测试恢复commit">
+      <created>1683793703818</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1683793703818</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题" />
     <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理" />
     <MESSAGE value="feat: leetcode 题目55 Jump Game" />
     <MESSAGE value="feat: leetcode 题目45 Jump Game II" />
@@ -652,7 +654,8 @@
     <MESSAGE value="feat: 遗漏图片" />
     <MESSAGE value="feat: 删除镜像文件" />
     <MESSAGE value="feat: 遗漏文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 遗漏文件" />
+    <MESSAGE value="feat: 测试恢复commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 测试恢复commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,6 +704,12 @@
           <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0054_SpiralMatrix.java</url>
           <line>37</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;myComponent&quot;.equals(beanName)" language="JAVA" />
+          <url>jar:///usr/local/repo/org/springframework/spring-beans/6.0.8/spring-beans-6.0.8.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>372</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
