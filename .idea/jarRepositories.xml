@@ -7,6 +7,11 @@
       <option name="url" value="http://101.35.240.154:8089/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jfrog" />
       <option name="name" value="jfrog" />
       <option name="url" value="https://repo.yyrd.com/artifactory/yonyou-public/" />
@@ -17,13 +22,13 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="jfrog" />
-      <option name="name" value="jfrog" />
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
       <option name="url" value="http://101.35.240.154:8089/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
+      <option name="id" value="jfrog" />
+      <option name="name" value="jfrog" />
       <option name="url" value="http://101.35.240.154:8089/repository/maven-public/" />
     </remote-repository>
     <remote-repository>

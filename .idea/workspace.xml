@@ -4,25 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: maven打包时差8小时">
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/AbstractElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ClassElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ElementComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ElementFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/ElementUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/FieldElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/GenerationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Java/03-Idea/element/MethodElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array0056_MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/leetcode/array/Array1675_MinimizeDeviationInArray.java" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: Intel cpu发展史">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/test/java/com/example/spring/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/spring">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +63,7 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_181/src.zip!/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/jdk/jdk1.8.0_181/src.zip!/java/lang/Integer.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,15 +71,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\repo" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\IdeaProjects\study\03-构建工具\03-Maven\settings.xml" />
+        <option name="localRepository" value="/usr/local/repo" />
+        <option name="mavenHome" value="/usr/local/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/03-构建工具/03-Maven/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="2JAggoCWxYPOpcg1KqGK54igDc3" />
@@ -64,17 +83,24 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "D:/IdeaProjects/study/08-Java/03-Idea",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,13 +108,16 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "36397fe12f935090ad150c6ce0c258d4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
@@ -100,7 +129,7 @@
       <recent name="com.leetcode.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array1675_MinimizeDeviationInArray">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Array0049_GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0049_GroupAnagrams" />
       <module name="leetcode" />
@@ -166,6 +195,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataStructureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="data-structure" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.datastructure.DataStructureApplication" />
@@ -179,6 +217,7 @@
       <item itemvalue="Application.Array0054_SpiralMatrix" />
       <item itemvalue="Application.Array0056_MergeIntervals" />
       <item itemvalue="Application.Array0049_GroupAnagrams" />
+      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DataStructureApplication" />
     </list>
     <recent_temporary>
@@ -226,55 +265,17 @@
       <workItem from="1678758252724" duration="7731000" />
       <workItem from="1678778791892" duration="1916000" />
       <workItem from="1678952827982" duration="2233000" />
-    </task>
-    <task id="LOCAL-00002" summary="feat: 代码中获取-D属性的两种方式, 以及部分无法被System.getProperty获取的属性">
-      <created>1671590202022</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1671590202022</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat: LaTeX公式">
-      <created>1672976517631</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1672976517631</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: leetcode 题目1 Two Sum">
-      <created>1675316822680</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1675316822680</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat: leetcode 题目4 Median of Two Sorted Arrays">
-      <created>1675320749845</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1675320749845</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat: leetcode 题目4 Median of Two Sorted Arrays">
-      <created>1675320788512</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1675320788512</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat: leetcode 题目11 Container With Most Water 解题失败, 耗时过长">
-      <created>1675324342460</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1675324342460</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat: leetcode 题目11 Container With Most Water 双指针解决, 复杂度O(n)">
-      <created>1675325698664</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1675325698664</updated>
+      <workItem from="1680369078721" duration="1867000" />
+      <workItem from="1681134268533" duration="1293000" />
+      <workItem from="1683622532043" duration="48000" />
+      <workItem from="1683622800194" duration="861000" />
+      <workItem from="1683623713475" duration="54000" />
+      <workItem from="1683623780840" duration="30000" />
+      <workItem from="1683624249955" duration="24000" />
+      <workItem from="1683701498713" duration="580000" />
+      <workItem from="1683702097674" duration="1242000" />
+      <workItem from="1683771838958" duration="3898000" />
+      <workItem from="1683776387031" duration="2364000" />
     </task>
     <task id="LOCAL-00009" summary="feat: leetcode 题目15 3Sum">
       <created>1675389305235</created>
@@ -570,7 +571,56 @@
       <option name="project" value="LOCAL" />
       <updated>1678780414119</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="feat: 系统架构设计师教程 第一章 绪论">
+      <created>1679930471083</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1679930471084</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机硬件和处理器">
+      <created>1680135014407</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1680135014407</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机存储器、总线、接口、外部设备">
+      <created>1680220600431</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1680220600431</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat: 系统架构设计师教程 第二章 计算机软件">
+      <created>1680529600499</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1680529600500</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat: flutter遇见的错误">
+      <created>1681134644036</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1681134644036</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat: flutter遇见的错误">
+      <created>1681135461648</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1681135461648</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat: Intel cpu发展史">
+      <created>1683774858220</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1683774858221</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,12 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 回溯的使用" />
-    <MESSAGE value="feat: windows cmd查看端口命令" />
-    <MESSAGE value="feat: 修改订阅地址节点,比如不要香港节点" />
-    <MESSAGE value="feat: leetcode 题目40 Combination Sum II" />
-    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water暴力破解" />
-    <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water动态规划" />
     <MESSAGE value="feat: 动态规划的使用" />
     <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water栈的使用, 没看懂" />
     <MESSAGE value="feat: leetcode 题目42 Trapping Rain Water 双指针" />
@@ -613,13 +657,19 @@
     <MESSAGE value="feat: 初识gradle part1" />
     <MESSAGE value="feat: 更新我的nexus" />
     <MESSAGE value="feat: maven打包时差8小时" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: maven打包时差8小时" />
+    <MESSAGE value="feat: 系统架构设计师教程 第一章 绪论" />
+    <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机硬件和处理器" />
+    <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机存储器、总线、接口、外部设备" />
+    <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机软件" />
+    <MESSAGE value="feat: flutter遇见的错误" />
+    <MESSAGE value="feat: Intel cpu发展史" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Intel cpu发展史" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_181/src.zip!/java/lang/Integer.java</url>
+          <url>jar://$USER_HOME$/jdk/jdk1.8.0_181/src.zip!/java/lang/Integer.java</url>
           <line>786</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -665,5 +715,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
