@@ -15,8 +15,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="data-structure" options="-parameters" />
-      <module name="spring" options="-parameters" />
+      <module name="data-structure" options="" />
+      <module name="spring" options="" />
     </option>
   </component>
 </project>

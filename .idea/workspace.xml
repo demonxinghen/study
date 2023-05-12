@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 测试恢复commit">
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: Spring Bean的生命周期">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-构建工具/03-Maven/nexus-3.42.0-01-mac.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="/usr/local/repo" />
         <option name="mavenHome" value="/usr/local/apache-maven-3.8.4" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/03-构建工具/03-Maven/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -92,13 +94,13 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/03-构建工具/03-Maven",
+    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -111,6 +113,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/03-构建工具/03-Maven" />
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
     </key>
@@ -267,14 +270,7 @@
       <workItem from="1683701498713" duration="580000" />
       <workItem from="1683702097674" duration="1242000" />
       <workItem from="1683771838958" duration="3898000" />
-      <workItem from="1683776387031" duration="7856000" />
-    </task>
-    <task id="LOCAL-00016" summary="feat: leetcode 题目33 Search in Rotated Sorted Array 未完全掌握">
-      <created>1675670975648</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1675670975648</updated>
+      <workItem from="1683776387031" duration="13731000" />
     </task>
     <task id="LOCAL-00017" summary="feat: leetcode 题目34 Find First and Last Position of Element in Sorted Array">
       <created>1675675869553</created>
@@ -612,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683793703818</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="feat: Spring Bean的生命周期">
+      <created>1683797329695</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1683797329695</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +633,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理" />
     <MESSAGE value="feat: leetcode 题目55 Jump Game" />
     <MESSAGE value="feat: leetcode 题目45 Jump Game II" />
     <MESSAGE value="feat: leetcode 题目46 Permutations" />
@@ -655,7 +657,8 @@
     <MESSAGE value="feat: 删除镜像文件" />
     <MESSAGE value="feat: 遗漏文件" />
     <MESSAGE value="feat: 测试恢复commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 测试恢复commit" />
+    <MESSAGE value="feat: Spring Bean的生命周期" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring Bean的生命周期" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
