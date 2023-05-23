@@ -1,6 +1,7 @@
 package com.example.annotation;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
@@ -10,6 +11,8 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
  * @description:
  */
 @Configuration("secondConfiguration")
+//@ComponentScan(includeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION))
+@ComponentScan(useDefaultFilters = false)
 public class MyConfiguration {
 
     @Bean

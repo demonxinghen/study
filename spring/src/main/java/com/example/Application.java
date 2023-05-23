@@ -1,6 +1,7 @@
 package com.example;
 
 import com.example.annotation.MyProperties;
+import com.example.annotation.TestBean;
 import com.example.annotation.ThirdProperties;
 import com.example.dao.ServiceImpl;
 import com.example.resource.ResourceType;
@@ -36,7 +37,10 @@ public class Application {
 
         ThirdProperties thirdProperties = applicationContext.getBean(ThirdProperties.class);
         thirdProperties.sayGoodbye();
-//
+
+        TestBean testBean = applicationContext.getBean(TestBean.class);
+        System.out.println(testBean.getThirdProperties());
+        //
 //        ClassPathXmlApplicationContext subApplicationContext = new ClassPathXmlApplicationContext(new String[]{"exclude.xml"}, applicationContext);
 //
 //        System.out.println(subApplicationContext.getBean(MySQLDto.class));
