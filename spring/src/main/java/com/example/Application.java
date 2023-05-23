@@ -1,5 +1,7 @@
-package com.example.spring;
+package com.example;
 
+import com.example.annotation.MyProperties;
+import com.example.annotation.ThirdProperties;
 import com.example.dao.ServiceImpl;
 import com.example.resource.ResourceType;
 import org.springframework.boot.SpringApplication;
@@ -28,6 +30,12 @@ public class Application {
 
         ResourceType resourceType = applicationContext.getBean(ResourceType.class);
         resourceType.say();
+
+        MyProperties myProperties = applicationContext.getBean(MyProperties.class);
+        myProperties.sayGoodbye();
+
+        ThirdProperties thirdProperties = applicationContext.getBean(ThirdProperties.class);
+        thirdProperties.sayGoodbye();
 //
 //        ClassPathXmlApplicationContext subApplicationContext = new ClassPathXmlApplicationContext(new String[]{"exclude.xml"}, applicationContext);
 //

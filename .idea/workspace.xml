@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 自动装配，depends-on，内嵌bean，p名称空间">
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/03-spring容器.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/04-注解开发.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/dao/DataSourceDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/dao/MySQLDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/dao/OracleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/dao/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/processor/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/processor/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/processor/MyFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/resource/ResourceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/resource/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/exclude.xml" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: BeanPostProcessor/BeanFactoryPostProcessor">
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/MyProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/ThirdConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/ThirdProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/my.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/third.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/02-依赖注入.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/02-依赖注入.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/BeanA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/autowiring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/autowiring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/04-注解开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/04-注解开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +108,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "spring.configuration.checksum": "8087b1472987c5e7a1402f36c77223f1",
     "vue.rearranger.settings.migration": "true"
   }
@@ -128,6 +119,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring/src/main/java/com/example/annotation" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/03-构建工具/03-Maven" />
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
@@ -135,7 +127,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.annotation" />
       <recent name="com.example.processor" />
       <recent name="com.example.dao" />
       <recent name="com.leetcode.array" />
@@ -211,7 +207,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="spring" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -289,14 +285,7 @@
       <workItem from="1683771838958" duration="3898000" />
       <workItem from="1683776387031" duration="15368000" />
       <workItem from="1683861923214" duration="26109000" />
-      <workItem from="1684810649437" duration="9828000" />
-    </task>
-    <task id="LOCAL-00019" summary="feat: leetcode 题目36 Valid Sudoku">
-      <created>1675754973299</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1675754973299</updated>
+      <workItem from="1684810649437" duration="13488000" />
     </task>
     <task id="LOCAL-00020" summary="feat: leetcode 题目37 Sudoku Solver 数独解法, 看都看不懂!!!">
       <created>1675755702281</created>
@@ -634,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684807225058</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="feat: BeanPostProcessor/BeanFactoryPostProcessor">
+      <created>1684879269900</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1684879269900</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目46 Permutations" />
     <MESSAGE value="feat: leetcode 题目47 PermutationsⅡ" />
     <MESSAGE value="feat: leetcode 题目540 Single Element in a Sorted Array" />
     <MESSAGE value="feat: leetcode 题目48 Rotate Image" />
@@ -677,7 +672,8 @@
     <MESSAGE value="feat: Spring Bean的生命周期" />
     <MESSAGE value="feat: 统一Maven管理、依赖冲突排除" />
     <MESSAGE value="feat: 自动装配，depends-on，内嵌bean，p名称空间" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 自动装配，depends-on，内嵌bean，p名称空间" />
+    <MESSAGE value="feat: BeanPostProcessor/BeanFactoryPostProcessor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: BeanPostProcessor/BeanFactoryPostProcessor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
