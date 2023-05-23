@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: Spring Bean的生命周期">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study.iml" beforeDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 统一Maven管理、依赖冲突排除">
+      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/02-依赖注入.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Autowiring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/BeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/BeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/OuterBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/PNamespace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/TargetBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/TestXmlBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/autowiring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/nested.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/01-Bean.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyPostBeanProcesssor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -55,7 +70,8 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/jdk/jdk1.8.0_181/src.zip!/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/local/repo/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6-sources.jar!/org/springframework/boot/SpringApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/local/repo/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -94,7 +110,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study",
+    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/spring/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,8 +119,8 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "36397fe12f935090ad150c6ce0c258d4",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "e9ab4f26fad588f34c7b2497f81d7a1c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -113,6 +129,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/03-构建工具/03-Maven" />
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
@@ -270,14 +287,8 @@
       <workItem from="1683701498713" duration="580000" />
       <workItem from="1683702097674" duration="1242000" />
       <workItem from="1683771838958" duration="3898000" />
-      <workItem from="1683776387031" duration="13731000" />
-    </task>
-    <task id="LOCAL-00017" summary="feat: leetcode 题目34 Find First and Last Position of Element in Sorted Array">
-      <created>1675675869553</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1675675869553</updated>
+      <workItem from="1683776387031" duration="15368000" />
+      <workItem from="1683861923214" duration="22658000" />
     </task>
     <task id="LOCAL-00018" summary="feat: leetcode 题目35 Search Insert Position">
       <created>1675748478941</created>
@@ -615,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683797329695</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="feat: 统一Maven管理、依赖冲突排除">
+      <created>1683860320956</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1683860320956</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目55 Jump Game" />
     <MESSAGE value="feat: leetcode 题目45 Jump Game II" />
     <MESSAGE value="feat: leetcode 题目46 Permutations" />
     <MESSAGE value="feat: leetcode 题目47 PermutationsⅡ" />
@@ -658,7 +675,8 @@
     <MESSAGE value="feat: 遗漏文件" />
     <MESSAGE value="feat: 测试恢复commit" />
     <MESSAGE value="feat: Spring Bean的生命周期" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring Bean的生命周期" />
+    <MESSAGE value="feat: 统一Maven管理、依赖冲突排除" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 统一Maven管理、依赖冲突排除" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,6 +731,11 @@
           <url>jar:///usr/local/repo/org/springframework/spring-beans/6.0.8/spring-beans-6.0.8.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
           <line>372</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/main/java/com/example/spring/BeanA.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

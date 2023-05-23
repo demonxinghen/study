@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MyConfiguration {
 
-    @Bean(initMethod = "init", destroyMethod = "des", value = {"name1", "name2"})
+    @Bean(initMethod = "init", destroyMethod = "des", value = {"myComponent"})
     public MyComponent create(){
         return new MyComponent();
     }

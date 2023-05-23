@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--p-namespace可以指定属性，代替properties，优点是在ide里会有提示，避免属性名写错-->
+    <!--c标签与p标签区别是p标签用于属性，c标签用于构造参数-->
+    <bean class="com.example.spring.PNamespace" p:age="24" p:sex="male">
+
+    </bean>
+</beans>

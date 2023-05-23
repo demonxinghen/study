@@ -4,6 +4,7 @@ import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.stereotype.Component;
 
 /**
  * @author: xuh
@@ -54,4 +55,15 @@ public class MyComponent implements InitializingBean, DisposableBean {
     private void preDestroy(){
         System.out.println("preDestroy");
     }
+
+    @Component
+    static class ComponentB{
+
+    }
+
+}
+
+@Component
+class ComponentC{
+
 }

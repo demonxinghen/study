@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--嵌套bean-->
+    <bean id="outerBean" class="com.example.spring.OuterBean">
+        <property name="innerBean">
+            <bean class="com.example.spring.InnerBean">
+                <constructor-arg value="female"/>
+                <constructor-arg value="18"/>
+            </bean>
+        </property>
+    </bean>
+</beans>
