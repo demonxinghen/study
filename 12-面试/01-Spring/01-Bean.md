@@ -5,16 +5,18 @@
     * 执行初始化的前置方法
         * BeanPostProcessor#postProcessBeforeInitialization
     * 执行初始化
-        * @PostConstruct
+        * @PostConstruct(建议,JSR-250标准,不耦合spring)
         * InitializingBean
         * initMethod
     * 执行初始化的后置方法
         * BeanPostProcessor#postProcessAfterInitialization
 4.使用Bean
 5.销毁Bean
-    * @PreDestroy
+    * @PreDestroy(建议,JSR-250标准,不耦合spring)
     * DisposableBean
-    * destroyMethod
+    * destroyMethod(destroyMethod和destroy-method有一个特殊值,inferred,使用该值,只要实现了java.lang.AutoCloseable 或 java.io.Closeable接口,对应的close和shutdown方法会被执行,适用于公共方法)
+
+还有个LifeCycle接口,参与对象的启动和关闭
 
 ### Bean的别名
 
@@ -39,4 +41,16 @@ SimpleAliasRegistry.aliasMap
 Spring中，由IOC容器管理的对象。
 ApplicationContext(IOC容器)负责实例化、配置和组装bean。
 容器通过获取bean元数据来执行实例化、配置和组装。元数据的方式有xml、注解、编码。
+
+### Scope
+* singleton: 针对一个容器而言，不同容器(比如父子容器)可以各自有一个同名同类型bean
+* prototype: 
+* request: 仅在web-application有用, http request
+* session: 仅在web-application有用, http session
+* application: 仅在web-application有用, ServletContext
+* websocket: 仅在web-application有用, WebSocket
+* thread: 线程范围可用,默认未注册,参考SimpleThreadScope
+* 自定义scope,实现Scope接口
+
+
 

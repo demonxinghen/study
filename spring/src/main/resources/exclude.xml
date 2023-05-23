@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <!--从引入中排除bean,默认情况下有两个DataSource-->
+    <bean id="mysql" class="com.example.dao.MySQLDto"/>
+    <bean id="oracle" class="com.example.dao.OracleDto" autowire-candidate="false"/>
+    <!--<bean id="service" class="com.example.dao.ServiceImpl" autowire="byName" /> byName情况下不受影响-->
+
+    <!--此时引入会出错，因为有两个type为DataSourceDto的实现类-->
+    <bean id="service" class="com.example.dao.ServiceImpl" autowire="byType" />
+    <!--解决方法1：在其中一个bean定义添加primary-->
+    <!--解决方法2：在其中一个bean定义添加autowire-candidate="false",则该bean会被排除默认类型装配,仍可以通过name装配-->
+
+    <bean class="com.example.processor.MyBeanFactoryPostProcessor"/>
+    <bean class="com.example.processor.MyBeanPostProcessor"/>
+    <bean id="resourceType" class="com.example.resource.ResourceType"/>
+    <bean id="targetResource" class="com.example.resource.Target"/>
+</beans>

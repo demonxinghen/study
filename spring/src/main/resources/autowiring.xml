@@ -5,6 +5,6 @@
        xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="autowiring" class="com.example.spring.Autowiring" autowire="constructor" depends-on="candidate"/>
+    <bean id="autowiring" class="com.example.spring.Autowiring" autowire="byType" depends-on="candidate"/>
     <bean id="candidate" class="com.example.spring.Candidate"/>
 </beans>
