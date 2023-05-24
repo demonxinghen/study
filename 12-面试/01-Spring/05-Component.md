@@ -33,3 +33,34 @@ org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor
 
 ### @Bean
 可以通过static修饰,修饰后会在容器生命周期早期就进行初始化.
+
+如果通过static修饰,那么永远不会被容器(包括上面说的@Configuration)拦截.
+
+不能声明为private和final.
+
+### @ComponentScan
+虽然类路径扫描非常快,但是可以通过在编译时创建静态列表来提高大型应用程序的启动性能.
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context-indexer</artifactId>
+        <version>6.0.9</version>
+        <optional>true</optional>
+    </dependency>
+</dependencies>
+```
+除此之外,需要注册CandidateComponentsIndexer,@ComponentScan也需要保留.
+
+编译时,会在META-INF下生成spring.components,内容如下
+```properties
+com.example.Application=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.example.annotation.MyComponent=org.springframework.stereotype.Component
+```
+里面都是添加了@Indexed注解的类,@Component默认已经添加了这个注解。
+
+启动时CandidateComponentsIndexLoader.loadIndex()会读取这个文件.
+
+如果要回退到类路径扫描,可以配置spring.index.ignore=true,配置到Java的system属性或者spring的properties。
+
+@Indexed使用限制：如果依赖的模块只有部分模块存在spring.components文件，则其他模块的bean也不会被扫描，此时需要回退到类路径扫描。

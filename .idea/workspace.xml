@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: Jakarta EE、PropertySourcesPlaceholderConfigurer、ConversionService">
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/05-Component.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/MyComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/TestBean.java" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: @Component和@Bean,@Configuration">
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/bean/name/first/BeanName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/bean/name/second/BeanName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/AdditionalBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/02-依赖注入.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/02-依赖注入.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/05-Component.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/05-Component.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/annotation/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/src/main/resources/exclude.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/exclude.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +107,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java",
@@ -282,14 +287,7 @@
       <workItem from="1683771838958" duration="3898000" />
       <workItem from="1683776387031" duration="15368000" />
       <workItem from="1683861923214" duration="26109000" />
-      <workItem from="1684810649437" duration="16176000" />
-    </task>
-    <task id="LOCAL-00021" summary="feat: leetcode 题目37 Sudoku Solver 添加个人理解">
-      <created>1675756554931</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1675756554931</updated>
+      <workItem from="1684810649437" duration="20650000" />
     </task>
     <task id="LOCAL-00022" summary="feat: leetcode 题目41 First Missing Positive">
       <created>1675762987254</created>
@@ -627,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684883064213</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="feat: @Component和@Bean,@Configuration">
+      <created>1684885693466</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1684885693466</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目540 Single Element in a Sorted Array" />
     <MESSAGE value="feat: leetcode 题目48 Rotate Image" />
     <MESSAGE value="feat: leetcode 题目49 Group Anagrams" />
     <MESSAGE value="feat: leetcode 题目53 Maximum Subarray" />
@@ -670,7 +674,8 @@
     <MESSAGE value="feat: 自动装配，depends-on，内嵌bean，p名称空间" />
     <MESSAGE value="feat: BeanPostProcessor/BeanFactoryPostProcessor" />
     <MESSAGE value="feat: Jakarta EE、PropertySourcesPlaceholderConfigurer、ConversionService" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Jakarta EE、PropertySourcesPlaceholderConfigurer、ConversionService" />
+    <MESSAGE value="feat: @Component和@Bean,@Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: @Component和@Bean,@Configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

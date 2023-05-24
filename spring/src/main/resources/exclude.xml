@@ -5,8 +5,8 @@
        xmlns:c="http://www.springframework.org/schema/c" xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.example" use-default-filters="false"/>
-    <!--<context:annotation-config/>-->
+    <!--<context:component-scan base-package="com.example" use-default-filters="false" name-generator="org.springframework.context.annotation.FullyQualifiedAnnotationBeanNameGenerator"/>-->
+    <context:annotation-config/>
 
     <!--从引入中排除bean,默认情况下有两个DataSource-->
     <bean id="mysql" class="com.example.dao.MySQLDto"/>
@@ -22,4 +22,5 @@
     <bean class="com.example.processor.MyBeanPostProcessor"/>
     <bean id="resourceType" class="com.example.resource.ResourceType"/>
     <bean id="targetResource" class="com.example.resource.Target"/>
+
 </beans>

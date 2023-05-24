@@ -15,4 +15,9 @@ public class MyConfiguration {
     public MyComponent create(){
         return new MyComponent();
     }
+
+//    @Bean
+//    public CandidateComponentsIndexer candidateComponentsIndexer(){
+//        return new CandidateComponentsIndexer();
+//    }
 }
