@@ -15,7 +15,7 @@ org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor
 ### @Configuration
 配置类,可以搭配@ComponentScan
 
-@Bean不只是可以放在@Configuration,事实上你可以放在@Component,@Service等注解类中,同样会被spring管理.区别是非@Configuration的bean不会通过CGLIB增强来拦截方法和字段的调用。
+@Bean不只是可以放在@Configuration,事实上你可以放在@Component,@Service等注解类中,同样会被spring管理.区别是非@Configuration的bean不会通过CGLIB增强来拦截方法和字段的调用,也不能声明bean依赖之间的关系,也不应该调用其他bean方法.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

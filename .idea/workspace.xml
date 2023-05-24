@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: @Component和@Bean,@Configuration">
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/bean/name/first/BeanName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/bean/name/second/BeanName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/AdditionalBean.java" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 组件和组件名称生成，预编译组件优化启动速度">
+      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/06-JSR330注解.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/02-依赖注入.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/02-依赖注入.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/05-Component.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/05-Component.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/MyConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/exclude.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/exclude.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,14 +277,7 @@
       <workItem from="1683771838958" duration="3898000" />
       <workItem from="1683776387031" duration="15368000" />
       <workItem from="1683861923214" duration="26109000" />
-      <workItem from="1684810649437" duration="20650000" />
-    </task>
-    <task id="LOCAL-00022" summary="feat: leetcode 题目41 First Missing Positive">
-      <created>1675762987254</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1675762987254</updated>
+      <workItem from="1684810649437" duration="21325000" />
     </task>
     <task id="LOCAL-00023" summary="feat: leetcode 题目39 Combination Sum">
       <created>1675925174455</created>
@@ -632,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684885693466</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="feat: 组件和组件名称生成，预编译组件优化启动速度">
+      <created>1684897711249</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1684897711249</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目48 Rotate Image" />
     <MESSAGE value="feat: leetcode 题目49 Group Anagrams" />
     <MESSAGE value="feat: leetcode 题目53 Maximum Subarray" />
     <MESSAGE value="feat: leetcode 题目54 Spiral Matrix" />
@@ -675,7 +664,8 @@
     <MESSAGE value="feat: BeanPostProcessor/BeanFactoryPostProcessor" />
     <MESSAGE value="feat: Jakarta EE、PropertySourcesPlaceholderConfigurer、ConversionService" />
     <MESSAGE value="feat: @Component和@Bean,@Configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: @Component和@Bean,@Configuration" />
+    <MESSAGE value="feat: 组件和组件名称生成，预编译组件优化启动速度" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 组件和组件名称生成，预编译组件优化启动速度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
