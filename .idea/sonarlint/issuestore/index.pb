@@ -66,8 +66,6 @@ l
 <spring/src/main/java/com/example/spring/MyConfiguration.java,e/5/e5a159dc17d867155bd92956aec4b04f32c7762e
 V
 &12-面试/01-Spring/04-注解开发.md,e/6/e6b114172531ec3bbc623cda65872ac7391dadff
-z
-Jspring/src/main/java/com/example/context/annotation/components/Person.java,6/b/6b924ef6d5cb8cf398febf591880b82181f2ba55
 V
 &12-面试/01-Spring/06-JSR330注解.md,d/5/d5bdad3da6271eea087dce15c4ce800904e163d4
 V

@@ -4,29 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: JSR-330注解">
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/07-注解容器.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/call/CallOneBeanApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/call/CallOneBeanConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/call/CallOneBeanDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/call/CallOneBeanService1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/call/CallOneBeanService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/BaseCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/Linux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/LinuxCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/Mac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/MacCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/OsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/OsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/Windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/conditional/WindowsCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/context/annotation/AnnotationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/context/annotation/components/Person.java" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: JSR-330注解/Conditional的用法">
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/profile/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/profile/Dev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/profile/DevConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/profile/Proc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/profile/ProcConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/06-JSR330注解.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/06-JSR330注解.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +44,7 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -121,7 +107,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editing.templates",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "spring.configuration.checksum": "8087b1472987c5e7a1402f36c77223f1",
     "vue.rearranger.settings.migration": "true"
   }
@@ -144,14 +130,14 @@
       <recent name="com.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.profile" />
       <recent name="com.example.conditional" />
       <recent name="com.example.call" />
       <recent name="com.example.annotation" />
       <recent name="com.example.processor" />
-      <recent name="com.example.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OsApplication">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="AnnotationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.context.annotation.AnnotationApplication" />
       <module name="spring" />
@@ -165,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array0056_MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.Array0056_MergeIntervals" />
-      <module name="leetcode" />
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.profile.Application" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="PATTERN" value="com.example.profile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,21 +220,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Application" />
       <item itemvalue="Application.OsApplication" />
       <item itemvalue="Application.AnnotationApplication" />
       <item itemvalue="Application.CallOneBeanApplication" />
       <item itemvalue="Application.Array1675_MinimizeDeviationInArray" />
-      <item itemvalue="Application.Array0056_MergeIntervals" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DataStructureApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.OsApplication" />
         <item itemvalue="Application.CallOneBeanApplication" />
         <item itemvalue="Application.AnnotationApplication" />
         <item itemvalue="Application.Array1675_MinimizeDeviationInArray" />
-        <item itemvalue="Application.Array0056_MergeIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -301,14 +287,7 @@
       <workItem from="1683861923214" duration="26109000" />
       <workItem from="1684810649437" duration="28270000" />
       <workItem from="1684979360599" duration="103000" />
-      <workItem from="1684979493107" duration="3470000" />
-    </task>
-    <task id="LOCAL-00024" summary="feat: leetcode 回溯的使用">
-      <created>1675925191710</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1675925191710</updated>
+      <workItem from="1684979493107" duration="5763000" />
     </task>
     <task id="LOCAL-00025" summary="feat: windows cmd查看端口命令">
       <created>1676266789108</created>
@@ -646,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684898243183</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="feat: JSR-330注解/Conditional的用法">
+      <created>1684984826687</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1684984826687</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: leetcode 题目53 Maximum Subarray" />
     <MESSAGE value="feat: leetcode 题目54 Spiral Matrix" />
     <MESSAGE value="feat: SpringBoot编译源码出错" />
     <MESSAGE value="feat: 初识gradle part1" />
@@ -689,7 +674,8 @@
     <MESSAGE value="feat: @Component和@Bean,@Configuration" />
     <MESSAGE value="feat: 组件和组件名称生成，预编译组件优化启动速度" />
     <MESSAGE value="feat: JSR-330注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: JSR-330注解" />
+    <MESSAGE value="feat: JSR-330注解/Conditional的用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: JSR-330注解/Conditional的用法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
