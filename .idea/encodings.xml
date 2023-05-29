@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/03-构建工具/03-Maven/12-maven打包时差相差8小时.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-Java/03-Idea/element" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-Java/03-Idea/element/CustomCodeStyleSettings.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/11-flutter/01-flutter初识/01-常见问题.md" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/aspectj/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aspectj/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data-structure/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data-structure/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode/src/main/java" charset="UTF-8" />

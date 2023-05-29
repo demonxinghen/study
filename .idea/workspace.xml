@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: @Profile控制加载哪些bean">
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/08-Environment.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/environment/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/environment/CustomProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/custom.properties" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: Environment和@PropertySource">
+      <change afterPath="$PROJECT_DIR$/03-构建工具/03-Maven/13-maven打本地包.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/09-EnableLoadTimeWeaving.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/Spring-LTW工作原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectInvoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectjApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/main/resources/META-INF/aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aspectj/src/test/java/com/aspectj/AspectjApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-构建工具/03-Maven/12-maven打包时差相差8小时.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-构建工具/03-Maven/12-maven打包时差相差8小时.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +41,9 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/aspect">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/spring">
       <ProjectState />
     </projectState>
@@ -29,9 +51,22 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/aspect">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="aspect" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="aspect" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -41,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -97,8 +132,8 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/spring/src/main/resources",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +143,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "spring.configuration.checksum": "8087b1472987c5e7a1402f36c77223f1",
+    "spring.configuration.checksum": "6cfe30521c6706077a3bc2968a23b5bf",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -117,11 +152,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aspectj/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/aspectj/src/main/java/com/example/aspectj" />
+      <recent name="$PROJECT_DIR$/aspect/src/main/java/com/example/aspect" />
       <recent name="$PROJECT_DIR$/spring/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring/src/main/java/com/example/annotation" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/03-构建工具/03-Maven" />
-      <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
@@ -137,20 +172,7 @@
       <recent name="com.example.processor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.environment.Application">
-    <configuration name="AnnotationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.context.annotation.AnnotationApplication" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.context.annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.AspectjApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.profile.Application" />
       <module name="spring" />
@@ -164,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallOneBeanApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.call.CallOneBeanApplication" />
+    <configuration name="OsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.conditional.OsApplication" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.call.*" />
+          <option name="PATTERN" value="com.example.conditional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.conditional.OsApplication" />
+    <configuration name="com.example.aspectj.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aspectj.Application" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.conditional.*" />
+          <option name="PATTERN" value="com.example.aspectj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +230,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="aspect [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aspect" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AspectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="aspect.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.aspect.AspectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AspectjApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="aspectj" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aspectj.AspectjApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:/usr/local/repo/org/springframework/spring-instrument/6.0.9/spring-instrument-6.0.9.jar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,21 +284,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.example.aspectj.Application" />
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.OsApplication" />
       <item itemvalue="Application.com.example.environment.Application" />
-      <item itemvalue="Application.AnnotationApplication" />
-      <item itemvalue="Application.CallOneBeanApplication" />
+      <item itemvalue="Gradle.aspect [build]" />
+      <item itemvalue="Spring Boot.AspectApplication" />
+      <item itemvalue="Spring Boot.AspectjApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DataStructureApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.aspect [build]" />
+        <item itemvalue="Application.com.example.aspectj.Application" />
         <item itemvalue="Application.com.example.environment.Application" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.OsApplication" />
-        <item itemvalue="Application.CallOneBeanApplication" />
-        <item itemvalue="Application.AnnotationApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +353,8 @@
       <workItem from="1683861923214" duration="26109000" />
       <workItem from="1684810649437" duration="28270000" />
       <workItem from="1684979360599" duration="103000" />
-      <workItem from="1684979493107" duration="11125000" />
-    </task>
-    <task id="LOCAL-00026" summary="feat: 修改订阅地址节点,比如不要香港节点">
-      <created>1676269475765</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1676269475765</updated>
+      <workItem from="1684979493107" duration="24489000" />
+      <workItem from="1685323613680" duration="622000" />
     </task>
     <task id="LOCAL-00027" summary="feat: leetcode 题目40 Combination Sum II">
       <created>1676859850851</created>
@@ -637,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684996742551</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="feat: Environment和@PropertySource">
+      <created>1685005525960</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1685005525960</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +717,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: SpringBoot编译源码出错" />
     <MESSAGE value="feat: 初识gradle part1" />
     <MESSAGE value="feat: 更新我的nexus" />
     <MESSAGE value="feat: maven打包时差8小时" />
@@ -680,7 +741,8 @@
     <MESSAGE value="feat: JSR-330注解" />
     <MESSAGE value="feat: JSR-330注解/Conditional的用法" />
     <MESSAGE value="feat: @Profile控制加载哪些bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: @Profile控制加载哪些bean" />
+    <MESSAGE value="feat: Environment和@PropertySource" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Environment和@PropertySource" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,6 +807,11 @@
           <url>file://$PROJECT_DIR$/spring/src/main/java/com/example/spring/BeanA.java</url>
           <line>31</line>
           <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectInvoke.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

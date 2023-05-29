@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/aspect" />
     <file type="web" url="file://$PROJECT_DIR$/data-structure" />
     <file type="web" url="file://$PROJECT_DIR$/spring" />
   </component>
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/leetcode/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/aspectj/pom.xml" />
       </list>
     </option>
   </component>

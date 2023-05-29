@@ -1,22 +1,22 @@
-### 1.Ê¹ÓÃmaven×Ô´øµÄÊôĞÔ
-ÉèÖÃÊ±¼ä´Á¸ñÊ½£ºÔÚpom.xmlÎÄ¼şÖĞ¼ÓÈëÒÔÏÂÅäÖÃ
+### 1.ä½¿ç”¨mavenè‡ªå¸¦çš„å±æ€§
+è®¾ç½®æ—¶é—´æˆ³æ ¼å¼ï¼šåœ¨pom.xmlæ–‡ä»¶ä¸­åŠ å…¥ä»¥ä¸‹é…ç½®
 
 ```xml
 <properties>
 <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
 </properties>
 ```
-ÔÚ´ò°üpluginÖĞÒıÓÃ¸ÃÊôĞÔ
+åœ¨æ‰“åŒ…pluginä¸­å¼•ç”¨è¯¥å±æ€§
 
 ```xml
 <finalName>
   ${project.artifactId}-${project.version}_${maven.build.timestamp}
 </finalName>
 ```
-Maven×Ô´øÊ±¼ä´ÁÊ¹ÓÃ${maven.build.timestamp}£¬µ«ÊÇÊ±ÇøÊÇUTC¡£ 
-Èç¹ûÒªÊ¹ÓÃGMT+8£¬¾ÍĞèÒª²å¼şÌá¹©Ö§³Ö£¬ÒÔÏÂÁ½¸ö²å¼ş¿ÉÒÔÊµÏÖ¡£
+Mavenè‡ªå¸¦æ—¶é—´æˆ³ä½¿ç”¨${maven.build.timestamp}ï¼Œä½†æ˜¯æ—¶åŒºæ˜¯UTCã€‚
+å¦‚æœè¦ä½¿ç”¨GMT+8ï¼Œå°±éœ€è¦æ’ä»¶æä¾›æ”¯æŒï¼Œä»¥ä¸‹ä¸¤ä¸ªæ’ä»¶å¯ä»¥å®ç°ã€‚
 
-### 2.Ê¹ÓÃbuildnubmer-maven-plugin
+### 2.ä½¿ç”¨buildnubmer-maven-plugin
 ```xml
 <plugin>
     <groupId>org.codehaus.mojo</groupId>
@@ -35,14 +35,14 @@ Maven×Ô´øÊ±¼ä´ÁÊ¹ÓÃ${maven.build.timestamp}£¬µ«ÊÇÊ±ÇøÊÇUTC¡£
     <inherited>false</inherited>
 </plugin>
 ```
-Ä¬ÈÏÊôĞÔÊÇtimestamp£¬ÔÚ´ò°üpluginÖĞÒıÓÃ¸ÃÊôĞÔ
+é»˜è®¤å±æ€§æ˜¯timestampï¼Œåœ¨æ‰“åŒ…pluginä¸­å¼•ç”¨è¯¥å±æ€§
 ```xml
 <finalName>
     ${project.artifactId}-${project.version}_${timestamp}
 </finalName>
 ```
 
-### 3.Ê¹ÓÃbuild-helper-maven-plugin(ÍÆ¼ö)
+### 3.ä½¿ç”¨build-helper-maven-plugin(æ¨è)
 ```xml
 <build>
     <finalName>${project.name}-${project.version}-${current.time}</finalName>

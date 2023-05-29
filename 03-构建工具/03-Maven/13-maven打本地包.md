@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=de.invesdwin -DartifactId=invesdwin-instrument -Dversion=1.0.14 -Dfile=/Users/demonxinghen/Downloads/invesdwin-instrument-1.0.14.jar -Dpackaging=jar
