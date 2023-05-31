@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 事件发布">
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/10-resources.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: resource、BeanFactory和ApplicationContext区别">
+      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/11-校验、数据绑定和类型转换.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/validator/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/validator/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/validator/PersonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/validator/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/validator/PersonValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/03-spring容器.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/03-spring容器.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/01-Spring/04-注解开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/01-Spring/04-注解开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,35 +101,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Settings.Markdown.SmartKeys",
-    "spring.configuration.checksum": "6cfe30521c6706077a3bc2968a23b5bf",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown.SmartKeys&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6cfe30521c6706077a3bc2968a23b5bf&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -151,20 +154,7 @@
       <recent name="com.example.annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.event.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.profile.Application" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.profile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.example.validator.Application">
     <configuration name="com.example.aspectj.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.aspectj.Application" />
       <module name="spring" />
@@ -202,6 +192,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.event.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.validator.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.validator.Application" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,9 +266,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.example.validator.Application" />
       <item itemvalue="Application.com.example.event.Application" />
       <item itemvalue="Application.com.example.aspectj.Application" />
-      <item itemvalue="Application.Application" />
       <item itemvalue="Application.com.example.environment.Application" />
       <item itemvalue="Gradle.aspect [build]" />
       <item itemvalue="Spring Boot.AspectApplication" />
@@ -275,11 +278,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.validator.Application" />
         <item itemvalue="Application.com.example.event.Application" />
         <item itemvalue="Gradle.aspect [build]" />
         <item itemvalue="Application.com.example.aspectj.Application" />
         <item itemvalue="Application.com.example.environment.Application" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -335,14 +338,7 @@
       <workItem from="1684979493107" duration="24489000" />
       <workItem from="1685323613680" duration="2336000" />
       <workItem from="1685327720456" duration="5533000" />
-      <workItem from="1685345466445" duration="5057000" />
-    </task>
-    <task id="LOCAL-00029" summary="feat: leetcode 题目42 Trapping Rain Water动态规划">
-      <created>1676871957468</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1676871957468</updated>
+      <workItem from="1685345466445" duration="13235000" />
     </task>
     <task id="LOCAL-00030" summary="feat: 动态规划的使用">
       <created>1676874204687</created>
@@ -680,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685345548229</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="feat: resource、BeanFactory和ApplicationContext区别">
+      <created>1685410746444</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1685410746444</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +701,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: maven打包时差8小时" />
     <MESSAGE value="feat: 系统架构设计师教程 第一章 绪论" />
     <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机硬件和处理器" />
     <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机存储器、总线、接口、外部设备" />
@@ -723,7 +725,8 @@
     <MESSAGE value="feat: Environment和@PropertySource" />
     <MESSAGE value="feat: 加载时编织，验证失败！" />
     <MESSAGE value="feat: 事件发布" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 事件发布" />
+    <MESSAGE value="feat: resource、BeanFactory和ApplicationContext区别" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: resource、BeanFactory和ApplicationContext区别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
