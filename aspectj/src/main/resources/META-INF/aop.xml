@@ -8,6 +8,6 @@
     </weaver>
     <!--切面类-->
     <aspects>
-        <aspect name="com.aspectj.AspectInvoke" />
+        <aspect name="com.aspectj.ProfilingAspect" />
     </aspects>
 </aspectj>
