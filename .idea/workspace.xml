@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 校验、数据绑定和类型转换">
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/12-SpringAOP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/ProfilingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/StubEntitlementCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/proxy/DirectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/proxy/Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/proxy/ProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/proxy/SimplePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aspectj/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspectj/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aspectj/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectInvoke.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectjApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/aspectj/src/main/java/com/aspectj/AspectjApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aspectj/src/main/resources/META-INF/aop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aspectj/src/main/resources/META-INF/aop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 启动步骤" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,34 +91,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Settings.Markdown.SmartKeys",
-    "spring.configuration.checksum": "6cfe30521c6706077a3bc2968a23b5bf",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown.SmartKeys&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6cfe30521c6706077a3bc2968a23b5bf&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -332,13 +313,7 @@
       <workItem from="1685583458844" duration="1203000" />
       <workItem from="1685607459121" duration="2455000" />
       <workItem from="1685670913877" duration="9162000" />
-    </task>
-    <task id="LOCAL-00031" summary="feat: leetcode 题目42 Trapping Rain Water栈的使用, 没看懂">
-      <created>1676874842460</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1676874842460</updated>
+      <workItem from="1685947731286" duration="339000" />
     </task>
     <task id="LOCAL-00032" summary="feat: leetcode 题目42 Trapping Rain Water 双指针">
       <created>1676876030147</created>
@@ -676,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685514974413</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="feat: 启动步骤">
+      <created>1685947756584</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1685947756585</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,7 +676,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机硬件和处理器" />
     <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机系统基础知识 计算机存储器、总线、接口、外部设备" />
     <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机软件" />
     <MESSAGE value="feat: flutter遇见的错误" />
@@ -719,7 +700,8 @@
     <MESSAGE value="feat: 事件发布" />
     <MESSAGE value="feat: resource、BeanFactory和ApplicationContext区别" />
     <MESSAGE value="feat: 校验、数据绑定和类型转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 校验、数据绑定和类型转换" />
+    <MESSAGE value="feat: 启动步骤" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 启动步骤" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
