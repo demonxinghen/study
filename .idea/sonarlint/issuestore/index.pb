@@ -174,8 +174,6 @@ V
 &12-面试/01-Spring/06-JSR330注解.md,d/5/d5bdad3da6271eea087dce15c4ce800904e163d4
 V
 &12-面试/01-Spring/07-注解容器.md,b/6/b65559b9ba06c741c8aeb23c43846b7de86c8d49
-U
-%12-面试/01-Spring/08-Environment.md,7/7/77d3f55235009bc312eed20d88dbb4700b35ecbf
 _
 /12-面试/01-Spring/09-EnableLoadTimeWeaving.md,8/3/83dff80c5f4f1ab9673022418258af1cf1822fa2
 V
