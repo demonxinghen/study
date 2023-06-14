@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: brew install命令报错">
-      <change afterPath="$PROJECT_DIR$/12-面试/01-Spring/15-编译spring源码.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 编译spring源码遇见的问题">
+      <change afterPath="$PROJECT_DIR$/12-面试/02-微服务/01-架构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-面试/02-微服务/01-架构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-面试/02-微服务/02-http调用的三种方式.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +138,7 @@
       <recent name="$PROJECT_DIR$/spring/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12-面试" />
       <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -318,14 +322,8 @@
       <workItem from="1685607459121" duration="2455000" />
       <workItem from="1685670913877" duration="9162000" />
       <workItem from="1685947731286" duration="1115000" />
-      <workItem from="1685954369715" duration="5368000" />
-    </task>
-    <task id="LOCAL-00033" summary="feat: leetcode 题目66 Plus One">
-      <created>1676877684195</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1676877684195</updated>
+      <workItem from="1685954369715" duration="9444000" />
+      <workItem from="1686705082488" duration="3571000" />
     </task>
     <task id="LOCAL-00034" summary="feat: leetcode 题目66 Plus One">
       <created>1676878013002</created>
@@ -663,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685948225287</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="feat: 编译spring源码遇见的问题">
+      <created>1686189700721</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1686189700722</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,7 +686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 系统架构设计师教程 第二章 计算机软件" />
     <MESSAGE value="feat: flutter遇见的错误" />
     <MESSAGE value="feat: Intel cpu发展史" />
     <MESSAGE value="feat: Spring Bean生命周期" />
@@ -706,7 +710,8 @@
     <MESSAGE value="feat: 校验、数据绑定和类型转换" />
     <MESSAGE value="feat: 启动步骤" />
     <MESSAGE value="feat: brew install命令报错" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: brew install命令报错" />
+    <MESSAGE value="feat: 编译spring源码遇见的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 编译spring源码遇见的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
