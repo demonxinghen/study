@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: http调用的三种方式">
-      <change afterPath="$PROJECT_DIR$/08-Java/开发常见异常.md" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 开发常见异常">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-面试/02-微服务/02-http调用的三种方式.md" beforeDir="false" afterPath="$PROJECT_DIR$/12-面试/02-微服务/02-http调用的三种方式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-构建工具/03-Maven/06-依赖范围.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-构建工具/03-Maven/06-依赖范围.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-Java/开发常见异常.md" beforeDir="false" afterPath="$PROJECT_DIR$/08-Java/开发常见异常.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2JAggoCWxYPOpcg1KqGK54igDc3" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -95,34 +99,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "spring.configuration.checksum": "94a3f2ee7519935362cc06f3381b5ffb",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5855ac042f70475a61d8a31b3f0160f6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -323,14 +327,10 @@
       <workItem from="1686705082488" duration="4198000" />
       <workItem from="1686734264935" duration="25000" />
       <workItem from="1686800554452" duration="27000" />
-      <workItem from="1686879450078" duration="306000" />
-    </task>
-    <task id="LOCAL-00035" summary="feat: leetcode 题目61 N Queens K皇后问题">
-      <created>1676882506660</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1676882506660</updated>
+      <workItem from="1686879450078" duration="340000" />
+      <workItem from="1686899571833" duration="21000" />
+      <workItem from="1687767429323" duration="2181000" />
+      <workItem from="1687943024546" duration="828000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -668,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686711887593</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="feat: 开发常见异常">
+      <created>1686879783834</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1686879783835</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Intel cpu发展史" />
     <MESSAGE value="feat: Spring Bean生命周期" />
     <MESSAGE value="feat: 遗漏图片" />
     <MESSAGE value="feat: 删除镜像文件" />
@@ -711,7 +717,8 @@
     <MESSAGE value="feat: brew install命令报错" />
     <MESSAGE value="feat: 编译spring源码遇见的问题" />
     <MESSAGE value="feat: http调用的三种方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: http调用的三种方式" />
+    <MESSAGE value="feat: 开发常见异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 开发常见异常" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

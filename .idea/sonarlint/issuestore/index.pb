@@ -98,8 +98,6 @@ p
 @spring/src/main/java/com/example/environment/CustomProperty.java,c/9/c90067363fff6238fc3d2bc2d82ca56e0d3d721e
 m
 =spring/src/main/java/com/example/environment/Application.java,d/a/daf9222ac351763a351d765c3f938734d75334bd
-[
-+03-构建工具/03-Maven/01-环境变量.md,2/5/250db8137c6cfe80a0bdc5ea1a274c3339bf8ba0
 X
 (03-构建工具/03-Maven/02-xml约束.md,f/0/f088a5219341b9297e1f492f3bfc17c94801fad4
 
@@ -108,8 +106,6 @@ m
 =03-构建工具/03-Maven/04-打包一个可执行的jar包.md,0/8/087782320a0d3f7012297ca4d62ac2683c80f7cf
 o
 ?03-构建工具/03-Maven/05-通过命令行生成maven骨架.md,f/5/f5c88955e3c036d8cb8669c6bca06454d63f7303
-[
-+03-构建工具/03-Maven/06-依赖范围.md,1/e/1e8c83e97726f5f8a2155ebad676496615b3417b
 Z
 *03-构建工具/03-Maven/07-Maven仓库.md,0/e/0e97c38c3be6c16bb6f13996393cc9f9e00fac4d
 n
@@ -166,7 +162,5 @@ _
 /12-面试/01-Spring/09-EnableLoadTimeWeaving.md,8/3/83dff80c5f4f1ab9673022418258af1cf1822fa2
 V
 &12-面试/01-Spring/03-spring容器.md,3/f/3f831e49db257e8d70eb6ac523efc0765744a960
-V
-&12-面试/01-Spring/04-注解开发.md,e/6/e6b114172531ec3bbc623cda65872ac7391dadff
 S
 #12-面试/01-Spring/10-resources.md,1/b/1b3843d432a863bd6fd47a718e490ad741bd6b6c
