@@ -1,0 +1,11 @@
+xxx:
+  elasticsearch:
+    schema: http
+    address: 127.0.0.1:9200
+    connect-timeout: 5000
+    socket-timeout: 5000
+    connection-request-timeout: 5000
+    max-connect-num: 100
+    max-connect-per-route: 100
+    username: admin
+    password: admin

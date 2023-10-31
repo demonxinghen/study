@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 认证和授权基本概念">
-      <change afterPath="$PROJECT_DIR$/13-安全性/02-SpringSecurity.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-Netty/01-网络协议.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-Netty/02-JavaNIO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-Netty/03-Netty.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-RocketMQ/1-搭建环境遇到的问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-代码封装/ElasticsearchCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-代码封装/ElasticsearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-代码封装/ElasticsearchIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-代码封装/ElasticsearchProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-代码封装/ElasticsearchUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-代码封装/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-代码封装/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-Elasticsearch/01-遇到的问题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -83,7 +90,6 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="/usr/local/repo" />
         <option name="mavenHome" value="/usr/local/apache-maven-3.8.4" />
-        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/03-构建工具/03-Maven/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -91,8 +97,11 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2JAggoCWxYPOpcg1KqGK54igDc3" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -101,44 +110,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/demonxinghen/IdeaProjects/study/aspectj/src/main/resources/META-INF&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5855ac042f70475a61d8a31b3f0160f6&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/IdeaProjects/study/16-Elasticsearch/01-代码封装",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "spring.configuration.checksum": "5855ac042f70475a61d8a31b3f0160f6",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\study\16-Elasticsearch\01-代码封装" />
       <recent name="$PROJECT_DIR$/aspectj/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/aspectj/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/aspectj/src/main/java/com/example/aspectj" />
       <recent name="$PROJECT_DIR$/aspect/src/main/java/com/example/aspect" />
-      <recent name="$PROJECT_DIR$/spring/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/13-安全性/images" />
@@ -156,6 +165,13 @@
       <recent name="com.example.call" />
       <recent name="com.example.annotation" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Application.AspectjApplication">
     <configuration name="AspectjApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -252,10 +268,10 @@
       <item itemvalue="Application.AspectjApplication" />
       <item itemvalue="Application.DirectMain" />
       <item itemvalue="Application.ProxyMain" />
-      <item itemvalue="Application.com.example.validator.Application" />
       <item itemvalue="Application.com.example.event.Application" />
-      <item itemvalue="Spring Boot.AspectApplication" />
+      <item itemvalue="Application.com.example.validator.Application" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.AspectApplication" />
       <item itemvalue="Spring Boot.DataStructureApplication" />
     </list>
     <recent_temporary>
@@ -338,6 +354,14 @@
       <workItem from="1688377448505" duration="1973000" />
       <workItem from="1688433943298" duration="846000" />
       <workItem from="1688543224711" duration="5518000" />
+      <workItem from="1697013015792" duration="603000" />
+      <workItem from="1697772828162" duration="788000" />
+      <workItem from="1697774089445" duration="77000" />
+      <workItem from="1697783592184" duration="1000" />
+      <workItem from="1697783600292" duration="6000" />
+      <workItem from="1697856027096" duration="11000" />
+      <workItem from="1698121335256" duration="640000" />
+      <workItem from="1698744753123" duration="572000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
