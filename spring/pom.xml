@@ -70,6 +70,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <!--  对应的还有fastjson2-extension-spring6和fastjson2-extension,分别适用于不同的spring版本和不使用spring  -->
+            <artifactId>fastjson2-extension-spring5</artifactId>
+            <version>2.0.42</version>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.commons</groupId>
