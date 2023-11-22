@@ -218,3 +218,47 @@ public class StreamConfiguration {
 }
 
 ```
+
+fastjson2的序列化和反序列化
+
+```java
+import com.alibaba.fastjson2.annotation.JSONField;
+import lombok.Data;
+
+@Data
+public class User {
+
+    @JSONField(deserializeUsing = TimeDeserializer.class)
+    private String birthday;
+}
+```
+
+反序列化类
+
+```java
+import com.alibaba.fastjson2.JSONReader;
+import com.alibaba.fastjson2.reader.ObjectReader;
+
+import java.lang.reflect.Type;
+
+/**
+ * 将前端传递的毫秒数转化为时间字符串,序列化就是实现ObjectWriter
+ */
+public class TimeDeserializer implements ObjectReader<String> {
+
+    @Override
+    public String readObject(JSONReader jsonReader, Type fieldType, Object fieldName, long features) {
+        if (jsonReader.nextIfNull()) {
+            return null;
+        }
+        String fieldNameString = fieldName.toString();
+        // 这里一定要执行jsonReader.readLocalDate()或者其他read方法,不然会将冒号后面的value当做下一个key来处理,会报错
+        if (fieldNameString.toUpperCase().contains("START")) {
+            return jsonReader.readLocalDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd 00:00:00"));
+        } else if (fieldNameString.toUpperCase().contains("END")) {
+            return jsonReader.readLocalDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd 23:59:59.9999"));
+        }
+        return jsonReader.readLocalDateTime().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+    }
+}
+```
