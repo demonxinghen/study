@@ -144,12 +144,14 @@ public class RedisConfiguration {
 public class RedisConfiguration {
 
     @Bean
-    public RedisTemplate redisTemplate(RedisConnectionFactory redisConnectionFactory) {
-        RedisTemplate redisTemplate = new RedisTemplate();
-        redisTemplate.setConnectionFactory(redisConnectionFactory);
-        FastJsonRedisSerializer fastJsonRedisSerializer = new FastJsonRedisSerializer(User.class);
-        redisTemplate.setDefaultSerializer(fastJsonRedisSerializer);
-        return redisTemplate;
+    public RedisTemplate<String, Serializable> redisTemplate(RedisConnectionFactory connectionFactory){
+        RedisTemplate<String, Serializable> template = new RedisTemplate<>();
+        template.setConnectionFactory(connectionFactory);
+
+        GenericFastJsonRedisSerializer fastJsonRedisSerializer = new GenericFastJsonRedisSerializer();
+        template.setKeySerializer(new StringRedisSerializer());
+        template.setValueSerializer(fastJsonRedisSerializer);
+        return template;
     }
 }
 ```
