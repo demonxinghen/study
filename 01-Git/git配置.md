@@ -52,3 +52,14 @@ git config --global user.email demonxinghen@126.com
 git rm -r --cached <filename>
 git update-index
 ```
+github仓库push或者pull失败的处理方法
+```text
+报错提示1：【Copilot】Sign in failed. Reason: ... read ECONNRESET, request id: 6, error code: -32603
+
+报错提示2：connect to host github.com port 22: Connection timed out
+
+解放方法,以下两个步骤都要做
+查找api.github.com的ip地址，然后在hosts文件中添加
+查找github.com的ip地址，然后在hosts文件中添加
+查找域名对应ip的网站有很多，比如：https://www.ipaddress.com/
+```
