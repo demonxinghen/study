@@ -46,10 +46,23 @@ yum list docker-ce --showduplicates | sort -r
 ```
 4. 安装docker
 ```shell
-sudo yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io
+sudo yum -y install docker-ce-<VERSION_STRING>
 ```
 5. 启动docker并设置开机自启
 ```shell
 sudo systemctl start docker
 sudo systemctl enable docker
+```
+6.sudo设置无需密码
+```shell
+# 查看用户组及成员
+sudo cat /etc/group | grep docker
+# 没有的话添加docker组
+sudo groupadd docker
+# 将当前用户添加到docker组
+sudo gpasswd -a ${USER} docker
+# 增加读写权限
+sudo chmod a+rw /var/run/docker.sock
+# 重启docker
+sudo systemctl restart docker
 ```
