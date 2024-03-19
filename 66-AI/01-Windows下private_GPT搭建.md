@@ -87,3 +87,7 @@ python -m private_gpt
 ```text
 要执行run python scripts/setup
 ```
+问题4：Group(s) not found: ui (via --with) 或者 Group(s) not found: local (via --with)
+```text
+poetry install --extras ui
+```
