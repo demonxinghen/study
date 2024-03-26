@@ -18,12 +18,17 @@ D:\Anaconda3\Scripts
 
 需要勾选的有：
 
-工作负荷-通用Windows平台开发，以及右侧的C++(v142)通用Windows平台工具
+工作负荷-通用Windows平台开发，以及右侧的C++(v142)通用Windows平台工具，桌面版C++
 
 单个组件-用于Windows的C++ CMake工具
 
-### 安装MinGW
-下载地址：https://sourceforge.net/projects/mingw-w64
+### 安装make
+administrator权限打开PowerShell,执行命令
+```shell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+choco install make
+```
 
 安装后打开MinGW Installation Manager
 
@@ -48,24 +53,29 @@ git --version
 
 ### 获取源码
 ```shell
-mkdir D:\privateGPT
-cd D:\privateGPT
-git clone https://github.com/imartinez/privateGPT
+git clone git@github.com:zylon-ai/private-gpt.git
 cd privateGPT
 ```
 
 ### 配置依赖并安装模型
 ```shell
 pip install poetry
-# 新版本使用poetry install --extras ui
-poetry install --with ui, local 
+# 旧版本使用poetry install --with ui, local
+poetry install --extras ui
 poetry run python scripts/setup
+poetry install --extras llms-llama-cpp
 ```
 
 ### 启动本地服务
 ```shell
 set PGPT_PROFILES=local
-python -m private_gpt
+make run
+```
+### 如果要使用ollama服务
+```shell
+poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"
+set PGPT_PROFILES=ollama
+make run
 ```
 
 ### 访问本地服务

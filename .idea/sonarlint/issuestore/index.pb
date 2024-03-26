@@ -202,3 +202,5 @@ X
 (16-Elasticsearch/01-代码封装/pom.xml,c\1\c111b8b006c61669eb87dfa0816457d284fb7573
 V
 &16-Elasticsearch/01-遇到的问题.md,f\e\feb84d0efce258bb0d7f5adc0dfaf762ac5bc016
+W
+'66-AI/01-Windows下private_GPT搭建.md,6\9\692738b5c29520cffd77abf8be056776d82ab1fa
