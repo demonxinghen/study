@@ -63,7 +63,7 @@ pip install poetry
 # 旧版本使用poetry install --with ui, local
 poetry install --extras ui
 poetry run python scripts/setup
-poetry install --extras llms-llama-cpp
+poetry install --extras "ui llms-llama-cpp"
 ```
 
 ### 启动本地服务
