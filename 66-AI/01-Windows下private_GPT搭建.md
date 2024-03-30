@@ -78,6 +78,39 @@ set PGPT_PROFILES=ollama
 make run
 ```
 
+### 修改settings-ollama.yaml配置
+```yaml
+server:
+  env_name: ${APP_ENV:ollama}
+
+llm:
+  mode: ollama
+  max_new_tokens: 1024 # default is 512
+  context_window: 8000 # default is 3900
+  temperature: 0.1     #The temperature of the model. Increasing the temperature will make the model answer more creatively. A value of 0.1 would be more factual. (Default: 0.1)
+
+embedding:
+  mode: ollama
+
+ollama:
+  llm_model: llama2:13b
+  embedding_model: llama2:13b # default is nomic-embed-text
+  api_base: http://localhost:11434
+  tfs_z: 1.0              # Tail free sampling is used to reduce the impact of less probable tokens from the output. A higher value (e.g., 2.0) will reduce the impact more, while a value of 1.0 disables this setting.
+  top_k: 40               # Reduces the probability of generating nonsense. A higher value (e.g. 100) will give more diverse answers, while a lower value (e.g. 10) will be more conservative. (Default: 40)
+  top_p: 0.9              # Works together with top-k. A higher value (e.g., 0.95) will lead to more diverse text, while a lower value (e.g., 0.5) will generate more focused and conservative text. (Default: 0.9)
+  repeat_last_n: 64       # Sets how far back for the model to look back to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx)
+  repeat_penalty: 1.2     # Sets how strongly to penalize repetitions. A higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 0.9) will be more lenient. (Default: 1.1)
+  request_timeout: 120.0  # Time elapsed until ollama times out the request. Default is 120s. Format is float.
+
+vectorstore:
+  database: qdrant
+
+qdrant:
+  path: ollama/private_gpt/qdrant
+```
+
+
 ### 访问本地服务
 在浏览器输入http://localhost:8001
 
