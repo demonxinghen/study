@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 01-Windows下private_GPT搭建">
-      <change afterPath="$PROJECT_DIR$/66-AI/02-IDEA使用AI-Assistant.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/66-AI/IDE设置开启代理.png" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: IDEA使用AI-Assistant以及Clash For Windows自定义规则配置">
+      <change afterPath="$PROJECT_DIR$/17-运维/02-jenkins部署/01-安装.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +125,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "5855ac042f70475a61d8a31b3f0160f6",
     "vue.rearranger.settings.migration": "true"
   }
@@ -374,7 +373,8 @@
       <workItem from="1700615889834" duration="1603000" />
       <workItem from="1711457348163" duration="556000" />
       <workItem from="1711460450583" duration="6516000" />
-      <workItem from="1712457275060" duration="1433000" />
+      <workItem from="1712457275060" duration="1833000" />
+      <workItem from="1712472447449" duration="14407000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -719,7 +719,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -749,7 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 自动装配，depends-on，内嵌bean，p名称空间" />
     <MESSAGE value="feat: BeanPostProcessor/BeanFactoryPostProcessor" />
     <MESSAGE value="feat: Jakarta EE、PropertySourcesPlaceholderConfigurer、ConversionService" />
     <MESSAGE value="feat: @Component和@Bean,@Configuration" />
@@ -774,7 +773,8 @@
     <MESSAGE value="feat: canal同步数据" />
     <MESSAGE value="feat: 切面编程" />
     <MESSAGE value="feat: 完善PrivateGPT搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 完善PrivateGPT搭建" />
+    <MESSAGE value="feat: IDEA使用AI-Assistant以及Clash For Windows自定义规则配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: IDEA使用AI-Assistant以及Clash For Windows自定义规则配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
