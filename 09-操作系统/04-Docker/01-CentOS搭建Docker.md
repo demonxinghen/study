@@ -65,4 +65,6 @@ sudo gpasswd -a ${USER} docker
 sudo chmod a+rw /var/run/docker.sock
 # 重启docker
 sudo systemctl restart docker
+# 开机自启
+sudo systemctl enable docker
 ```
