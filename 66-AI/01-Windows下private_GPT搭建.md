@@ -30,9 +30,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco install make
 ```
 
-安装后打开MinGW Installation Manager
+[//]: # (安装后打开MinGW Installation Manager)
 
-勾选mingw32-gcc-g++，点击Installation->Apply Changes
+[//]: # ()
+[//]: # (勾选mingw32-gcc-g++，点击Installation->Apply Changes)
 
 ### 安装git
 下载地址：https://git-scm.com/download/win
