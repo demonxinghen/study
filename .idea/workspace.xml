@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: docker开启自启">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 搭建OpenDevin和vmware虚拟机走主机代理">
+      <change afterPath="$PROJECT_DIR$/66-AI/03-OpenDevin搭建.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/66-AI/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/66-AI/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-操作系统/04-Docker/02-Docker安装MySQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/09-操作系统/04-Docker/02-Docker安装MySQL.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,6 +375,9 @@
       <workItem from="1711460450583" duration="6516000" />
       <workItem from="1712457275060" duration="1833000" />
       <workItem from="1712472447449" duration="14407000" />
+      <workItem from="1712805803056" duration="2399000" />
+      <workItem from="1712808890026" duration="8000" />
+      <workItem from="1712819026781" duration="6142000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -718,7 +722,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,10 +752,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Jakarta EE、PropertySourcesPlaceholderConfigurer、ConversionService" />
-    <MESSAGE value="feat: @Component和@Bean,@Configuration" />
-    <MESSAGE value="feat: 组件和组件名称生成，预编译组件优化启动速度" />
-    <MESSAGE value="feat: JSR-330注解" />
     <MESSAGE value="feat: JSR-330注解/Conditional的用法" />
     <MESSAGE value="feat: @Profile控制加载哪些bean" />
     <MESSAGE value="feat: Environment和@PropertySource" />
@@ -772,8 +772,13 @@
     <MESSAGE value="feat: 切面编程" />
     <MESSAGE value="feat: 完善PrivateGPT搭建" />
     <MESSAGE value="feat: IDEA使用AI-Assistant以及Clash For Windows自定义规则配置" />
+    <MESSAGE value="feat: centos安装Jenkins-1" />
+    <MESSAGE value="feature: 更新Jenkins安装和配置指南&#10;对Jenkins安装和配置指南进行了几项更新。这包括创建仓库、为当前用户配置sudo、改进工具配置和扩展项目创建细节的详细步骤。" />
     <MESSAGE value="feat: docker开启自启" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: docker开启自启" />
+    <MESSAGE value="feat: 启动容器" />
+    <MESSAGE value="feat: docker配置镜像源" />
+    <MESSAGE value="feat: 注释无用步骤" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 注释无用步骤" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
