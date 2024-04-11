@@ -53,7 +53,7 @@ sudo yum -y install docker-ce-<VERSION_STRING>
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
-6.sudo设置无需密码
+6. sudo设置无需密码
 ```shell
 # 查看用户组及成员
 sudo cat /etc/group | grep docker
@@ -67,4 +67,17 @@ sudo chmod a+rw /var/run/docker.sock
 sudo systemctl restart docker
 # 开机自启
 sudo systemctl enable docker
+```
+7. docker配置镜像源
+```shell
+sudo vim /etc/docker/daemon.json
+{
+    "registry-mirrors": [
+        "https://registry.docker-cn.com",
+        "https://docker.mirrors.ustc.edu.cn"
+    ]
+}
+# 保存退出
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ```
