@@ -1,0 +1,14 @@
+# encoding: utf-8
+
+patch:
+  switches/@next: # @next表示加在当前列表的后面
+    name: emoji_suggestion
+    reset: 1
+    states: [ "🈚︎", "🈶️" ]
+  'engine/filters/@before 0': # @before表示在索引为0的位置插入
+    simplifier@emoji_suggestion
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: none
+    inherit_comment: false
