@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: rime配置" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: springboot3.2出现Invalid value type for attribute 'factoryBeanObjectType': java.lang.String">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-RocketMQ/1-搭建环境遇到的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/15-RocketMQ/1-搭建环境遇到的问题.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,8 +281,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -378,6 +381,9 @@
       <workItem from="1712892064369" duration="2611000" />
       <workItem from="1712904778951" duration="7000" />
       <workItem from="1714441845672" duration="3268000" />
+      <workItem from="1715303908370" duration="245000" />
+      <workItem from="1715306956706" duration="1724000" />
+      <workItem from="1715568883165" duration="1309000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -722,7 +728,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +758,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Environment和@PropertySource" />
     <MESSAGE value="feat: 加载时编织，验证失败！" />
     <MESSAGE value="feat: 事件发布" />
     <MESSAGE value="feat: resource、BeanFactory和ApplicationContext区别" />
@@ -778,7 +783,8 @@
     <MESSAGE value="feat: 注释无用步骤" />
     <MESSAGE value="feat: 搭建OpenDevin和vmware虚拟机走主机代理" />
     <MESSAGE value="feat: 快速搭建免费GPT" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 快速搭建免费GPT" />
+    <MESSAGE value="feat: springboot3.2出现Invalid value type for attribute 'factoryBeanObjectType': java.lang.String" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: springboot3.2出现Invalid value type for attribute 'factoryBeanObjectType': java.lang.String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
