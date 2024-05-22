@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: websocket服务端推送客户端" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 模拟心跳" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -520,6 +520,7 @@
       <workItem from="1715757847836" duration="125000" />
       <workItem from="1715936264542" duration="39000" />
       <workItem from="1716338943515" duration="519000" />
+      <workItem from="1716343947178" duration="112000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -864,7 +865,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -894,7 +895,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: brew install命令报错" />
     <MESSAGE value="feat: 编译spring源码遇见的问题" />
     <MESSAGE value="feat: http调用的三种方式" />
     <MESSAGE value="feat: 开发常见异常" />
@@ -919,7 +919,8 @@
     <MESSAGE value="feat: python获取当年所有工作日" />
     <MESSAGE value="feat: python获取当年所有工作日-格式化代码" />
     <MESSAGE value="feat: websocket服务端推送客户端" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: websocket服务端推送客户端" />
+    <MESSAGE value="feat: 模拟心跳" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 模拟心跳" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
