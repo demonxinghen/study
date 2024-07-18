@@ -67,6 +67,8 @@ yaml对应的配置有：
 
 clash for windows文档可查看： https://docs.gtk.pw/
 
+### 配置完需要更新下订阅，规则才能生效
+
 ### 修改账号的所在地区
 在下面链接中修改账号所在地区： https://account.jetbrains.com/profile-details
 
