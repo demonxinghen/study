@@ -8,7 +8,15 @@
 
 ```yaml
 parsers: # array
-  - url: https://update.cdn-sd.xyz/api/v1/client/subscribe?token=d879574f1544a3760a698ef2f02c78d8
+  - reg: ^.*$
+    # 下面是删除服务商自带的策略组和规则, 一般不用
+    code: |
+      module.exports.parse = (raw, { yaml }) => {
+        const rawObj = yaml.parse(raw)
+        const groups = []
+        const rules = []
+        return yaml.stringify({ ...rawObj, 'proxy-groups': groups, rules })
+      }
     yaml:
       prepend-proxy-groups:
         - name: JetBrainsAi
@@ -23,6 +31,7 @@ parsers: # array
       prepend-rules:
         - DOMAIN-KEYWORD,grazie.aws.intellij.net,JetBrainsAi
         - DOMAIN-KEYWORD,grazie.ai,JetBrainsAi
+        - DOMAIN-SUFFIX,openai.com,JetBrainsAi
 ```
 
 解释：
