@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: clash for windows的parsers配置2">
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: mysql查询表行数和占用空间">
+      <change afterPath="$PROJECT_DIR$/15-RocketMQ/2-Windows搭建4.9.1版本.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +127,7 @@
     &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/study/66-AI&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/rocketmq-all-4.9.1-source-release&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -354,6 +355,14 @@
       <workItem from="1721374147161" duration="2536000" />
       <workItem from="1721611828132" duration="4563000" />
       <workItem from="1721696155490" duration="519000" />
+      <workItem from="1721892349463" duration="278000" />
+      <workItem from="1721906476636" duration="694000" />
+      <workItem from="1722241633718" duration="1752000" />
+      <workItem from="1722243397667" duration="92000" />
+      <workItem from="1722243511420" duration="867000" />
+      <workItem from="1722312980648" duration="2978000" />
+      <workItem from="1723454866422" duration="9000" />
+      <workItem from="1723772469900" duration="55000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -698,7 +707,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +737,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: elasticsearch" />
     <MESSAGE value="feat: canal同步数据" />
     <MESSAGE value="feat: 切面编程" />
     <MESSAGE value="feat: 完善PrivateGPT搭建" />
@@ -753,7 +761,8 @@
     <MESSAGE value="feat: 分表情况下或者说相同字段的实体，如何通过动态表名插件的方式来实现公共方法的提取。以及如何动态注入bean。" />
     <MESSAGE value="feat: clash for windows的parsers配置" />
     <MESSAGE value="feat: clash for windows的parsers配置2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: clash for windows的parsers配置2" />
+    <MESSAGE value="feat: mysql查询表行数和占用空间" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mysql查询表行数和占用空间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
