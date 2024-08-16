@@ -27,3 +27,18 @@ Sun公司规定，当垃圾回收器花费的时间超过98%时，而只得到2%
 方式1: jmap -dump:live,format=b,file=/app/logs/heapdump.hprof <PID>
 方式2: 启动命令里配置参数-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/app/logs/heapdump.hprof
 ```
+
+使用MAT分析内存问题：
+
+MAT（Memory Analyzer Tool）是一种图形界面工具，官网下载连接：https://eclipse.dev/mat/downloads.php
+
+国内镜像地址：	https://mirrors.nju.edu.cn/eclipse/mat/1.15.0/rcp
+
+默认安装打开后，
+```text
+1.点击File->Open Heap Dump...
+2.选择堆转储文件
+3.在overview页面点击Leak Suspects
+4.找到Problem Suspect 1下面的details查看
+5.最下方的Thread Stack搜索任意包名，查看堆转储文件对应线程的堆栈信息，可以查到导致项目OOM的原因
+```
