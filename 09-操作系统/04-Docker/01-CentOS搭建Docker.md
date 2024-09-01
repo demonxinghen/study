@@ -73,8 +73,8 @@ sudo systemctl enable docker
 sudo vim /etc/docker/daemon.json
 {
     "registry-mirrors": [
-        "https://registry.docker-cn.com",
-        "https://docker.mirrors.ustc.edu.cn"
+        "https://docker.registry.cyou/",
+        "https://docker-cf.registry.cyou/"
     ]
 }
 # 保存退出
