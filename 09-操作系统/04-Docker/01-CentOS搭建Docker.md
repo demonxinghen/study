@@ -17,7 +17,7 @@ sudo yum remove docker \
                   docker-engine
 ```
 ### 安装方式
-- 使用官方安装脚本自动安装
+- 使用官方安装脚本自动安装（已作废，国内镜像被禁用）
 ```shell
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
@@ -28,7 +28,7 @@ sudo yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 ```
-2. 设置yum源
+2. 设置yum源（已作废，国内镜像被禁用）
 ```shell
 # 中央仓库
 sudo yum-config-manager \
@@ -47,6 +47,10 @@ yum list docker-ce --showduplicates | sort -r
 4. 安装docker
 ```shell
 sudo yum -y install docker-ce-<VERSION_STRING>
+
+或者
+
+sudo yum install docker-ce docer-ce-cli containerd.io
 ```
 5. 启动docker并设置开机自启
 ```shell
