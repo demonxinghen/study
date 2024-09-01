@@ -35,3 +35,4 @@ yum install -y libatk-1.0.so.0
 # 最后一步
 pnpm run dev
 ```
+https://pptr.dev/troubleshooting#could-not-find-expected-browser-locally 解决使用puppeteer的问题

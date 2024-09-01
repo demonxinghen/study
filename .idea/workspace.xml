@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 启用IPV6和更新docker可用镜像源">
-      <change afterPath="$PROJECT_DIR$/09-操作系统/04-Docker/03-docker自建RSSHub.md" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 自建RSSHub">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-操作系统/04-Docker/01-CentOS搭建Docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/09-操作系统/04-Docker/01-CentOS搭建Docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-操作系统/04-Docker/03-docker自建RSSHub.md" beforeDir="false" afterPath="$PROJECT_DIR$/09-操作系统/04-Docker/03-docker自建RSSHub.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +375,8 @@
       <workItem from="1724724612401" duration="10000" />
       <workItem from="1724742216832" duration="1000" />
       <workItem from="1724916753740" duration="4755000" />
-      <workItem from="1725187514064" duration="8588000" />
+      <workItem from="1725187514064" duration="9147000" />
+      <workItem from="1725230409934" duration="837000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -721,7 +721,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,7 +761,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: centos安装Jenkins-1" />
     <MESSAGE value="feature: 更新Jenkins安装和配置指南&#10;对Jenkins安装和配置指南进行了几项更新。这包括创建仓库、为当前用户配置sudo、改进工具配置和扩展项目创建细节的详细步骤。" />
     <MESSAGE value="feat: docker开启自启" />
     <MESSAGE value="feat: 启动容器" />
@@ -786,7 +785,8 @@
     <MESSAGE value="feat: cpu出现100%情况1 GC overhead limit exceeded" />
     <MESSAGE value="feat: 使用MAT分析内存问题" />
     <MESSAGE value="feat: 启用IPV6和更新docker可用镜像源" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 启用IPV6和更新docker可用镜像源" />
+    <MESSAGE value="feat: 自建RSSHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 自建RSSHub" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
