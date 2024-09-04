@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 解决使用puppeteer的问题">
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: sonarcube安装及问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-操作系统/04-Docker/03-docker自建RSSHub.md" beforeDir="false" afterPath="$PROJECT_DIR$/09-操作系统/04-Docker/03-docker自建RSSHub.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,6 +376,7 @@
       <workItem from="1724916753740" duration="4755000" />
       <workItem from="1725187514064" duration="9147000" />
       <workItem from="1725230409934" duration="2852000" />
+      <workItem from="1725432954481" duration="43000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -786,7 +786,8 @@
     <MESSAGE value="feat: 启用IPV6和更新docker可用镜像源" />
     <MESSAGE value="feat: 自建RSSHub" />
     <MESSAGE value="feat: 解决使用puppeteer的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 解决使用puppeteer的问题" />
+    <MESSAGE value="feat: sonarcube安装及问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: sonarcube安装及问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
