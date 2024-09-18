@@ -42,3 +42,24 @@ MAT（Memory Analyzer Tool）是一种图形界面工具，官网下载连接：
 4.找到Problem Suspect 1下面的details查看
 5.最下方的Thread Stack搜索任意包名，查看堆转储文件对应线程的堆栈信息，可以查到导致项目OOM的原因
 ```
+
+### CPU100%
+1.使用jstack
+
+jps -l 找到对应 pid
+
+top -Hp pid 找到cpu最高的pid2
+
+printf '%x\n' pid2 将pid2转化为16进制 pid3
+
+jstack pid | grep pid3 -C5 --color
+
+jstack pid | grep -A 50 pid3
+
+2.使用arthas
+
+./as.sh
+
+dashboard
+
+thread -n 3 找到占用cpu最高的3个线程
