@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: websocket封装通用类。">
-      <change beforePath="$PROJECT_DIR$/08-Java/02-JVM/03-OutOfMemoryError.md" beforeDir="false" afterPath="$PROJECT_DIR$/08-Java/02-JVM/03-OutOfMemoryError.md" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 合并">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +89,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="/usr/local/repo" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/03-构建工具/03-Maven/settings.xml" />
+        <option name="localRepository" value="D:\repo" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.9.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -108,39 +110,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.01-获取当年所有工作日.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01-获取当年所有工作日2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02-获取当年所有工作日-保存到txt (1).executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/study/08-Java/02-JVM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;af5e384ba0a6efe33d2ecd97a10b0ff9&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Application.executor": "Run",
+    "Python.01-获取当年所有工作日.executor": "Run",
+    "Python.01-获取当年所有工作日2.executor": "Run",
+    "Python.02-获取当年所有工作日-保存到txt (1).executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "Spring Boot.Application.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IdeaProjects/study/08-Java/02-JVM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "af5e384ba0a6efe33d2ecd97a10b0ff9",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -180,7 +184,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.example.event.Application">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Application" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.example.event.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.event.Application" />
       <module name="spring" />
@@ -230,12 +247,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Application" />
       <item itemvalue="Application.com.example.event.Application" />
       <item itemvalue="Application.com.example.validator.Application" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.AspectApplication" />
       <item itemvalue="Spring Boot.DataStructureApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -246,6 +269,13 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringProfilesService">
+    <option name="activeProfiles">
+      <map>
+        <entry key="spring" value="test" />
+      </map>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\徐辉\AppData\Roaming\Subversion</configuration>
   </component>
@@ -723,7 +753,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,7 +793,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 启动容器" />
     <MESSAGE value="feat: docker配置镜像源" />
     <MESSAGE value="feat: 注释无用步骤" />
     <MESSAGE value="feat: 搭建OpenDevin和vmware虚拟机走主机代理" />
@@ -788,12 +817,12 @@
     <MESSAGE value="feat: 自建RSSHub" />
     <MESSAGE value="feat: 解决使用puppeteer的问题" />
     <MESSAGE value="feat: 解决RSSHub无法启动chrome的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 解决RSSHub无法启动chrome的问题" />
     <MESSAGE value="feat: sonarcube安装及问题" />
     <MESSAGE value="feat: conda报错 HTTP 000 CONNECTION FAILED for url" />
     <MESSAGE value="feat: 文件下载" />
     <MESSAGE value="feat: websocket封装通用类。" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: websocket封装通用类。" />
+    <MESSAGE value="feat: 合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 合并" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
