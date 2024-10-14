@@ -26,6 +26,7 @@ Sun公司规定，当垃圾回收器花费的时间超过98%时，而只得到2%
 ```text
 方式1: jmap -dump:live,format=b,file=/app/logs/heapdump.hprof <PID>
 方式2: 启动命令里配置参数-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/app/logs/heapdump.hprof
+方法3: 启动命令里配置参数-XX:+HeapDumpOnCtrlBreak, 监听Ctrl+Break或者kill -3 <pid>,也会生成堆转储文件
 ```
 
 使用MAT分析内存问题：
