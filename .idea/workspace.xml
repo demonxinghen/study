@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 合并">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/Application.java" afterDir="false" />
-    </list>
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 修改配置" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -754,7 +750,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,7 +790,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: docker配置镜像源" />
     <MESSAGE value="feat: 注释无用步骤" />
     <MESSAGE value="feat: 搭建OpenDevin和vmware虚拟机走主机代理" />
     <MESSAGE value="feat: 快速搭建免费GPT" />
@@ -825,6 +820,8 @@
     <MESSAGE value="feat: 合并" />
     <MESSAGE value="feat: CPU100%处理" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: CPU100%处理" />
+    <MESSAGE value="feat: 修改配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
