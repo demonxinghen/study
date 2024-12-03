@@ -6,3 +6,11 @@
 ```sql
 select count(1) from table_name force index where ..;
 ```
+
+查询mysql锁表
+
+SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
+
+杀死锁的线程, id就是上述查询结果的 trx_mysql_thread_id
+
+kill id
