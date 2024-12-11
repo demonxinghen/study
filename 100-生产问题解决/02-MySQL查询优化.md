@@ -14,3 +14,7 @@ SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
 杀死锁的线程, id就是上述查询结果的 trx_mysql_thread_id
 
 kill id
+
+或者查询 SELECT * FROM information_schema.processlist where command != 'daemon' and command != 'sleep' ORDER BY TIME DESC;
+
+该sql查询结果和 show full processlist; 但是支持按时间排序， 返回的id也就是上述查询结果的 trx_mysql_thread_id
