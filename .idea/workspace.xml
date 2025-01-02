@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 查询mysql锁表">
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 查询mysql锁表2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100-生产问题解决/02-MySQL查询优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/100-生产问题解决/02-MySQL查询优化.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +74,21 @@
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "demonxinghen"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:demonxinghen/study.git",
+    "accountId": "0eb2ad29-5542-4496-8982-34ab6864dbf7"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///usr/local/repo/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6-sources.jar!/org/springframework/boot/SpringApplication.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/local/repo/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java" root0="SKIP_INSPECTION" />
@@ -109,41 +120,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01-获取当年所有工作日.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01-获取当年所有工作日2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02-获取当年所有工作日-保存到txt (1).executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/study/08-Java/02-JVM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;af5e384ba0a6efe33d2ecd97a10b0ff9&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Application.executor": "Run",
+    "Python.01-获取当年所有工作日.executor": "Run",
+    "Python.01-获取当年所有工作日2.executor": "Run",
+    "Python.02-获取当年所有工作日-保存到txt (1).executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "Spring Boot.Application.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IdeaProjects/study/08-Java/02-JVM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "af5e384ba0a6efe33d2ecd97a10b0ff9",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -262,8 +274,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -414,7 +426,8 @@
       <workItem from="1733207868240" duration="14000" />
       <workItem from="1733208354893" duration="292000" />
       <workItem from="1733883101293" duration="29000" />
-      <workItem from="1733885444852" duration="666000" />
+      <workItem from="1733885444852" duration="1277000" />
+      <workItem from="1735011142241" duration="134000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -759,7 +772,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,8 +824,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 快速搭建免费GPT" />
-    <MESSAGE value="feat: springboot3.2出现Invalid value type for attribute 'factoryBeanObjectType': java.lang.String" />
     <MESSAGE value="feat: rocketmq No route info of this topic" />
     <MESSAGE value="feat: python获取当年所有工作日" />
     <MESSAGE value="feat: python获取当年所有工作日-格式化代码" />
@@ -840,7 +851,8 @@
     <MESSAGE value="feat: CPU100%处理" />
     <MESSAGE value="feat: 获取堆文件" />
     <MESSAGE value="feat: 查询mysql锁表" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 查询mysql锁表" />
+    <MESSAGE value="feat: 查询mysql锁表2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 查询mysql锁表2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
