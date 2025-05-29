@@ -12,6 +12,10 @@ pip install PyInstaller
 ```
 C:\Python312\python.exe -m PyInstaller --noconsole --onefile --clean message.pyw
 ```
+如果需要设置exe的图标,可以使用--icon参数
+```shell
+C:\Python312\python.exe -m PyInstaller --noconsole --onefile --clean --icon=C:\Users\admin\Desktop\1.ico  message.pyw
+```
 或者指定python版本
 ```shell
 py -3.12 -m PyInstaller --noconsole --onefile --clean message.pyw
