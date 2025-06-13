@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 03-python脚本打包成exe">
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 设置图标">
+      <change afterPath="$PROJECT_DIR$/windows使用遇见的一些问题/小工具/AIDA64/aida64extreme765.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows使用遇见的一些问题/小工具/AIDA64/激活码.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,11 +170,11 @@
       <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\rime" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\小工具\AIDA64" />
       <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\rime\lua" />
       <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\rime" />
       <recent name="$PROJECT_DIR$/13-安全性/images" />
       <recent name="$PROJECT_DIR$/12-面试" />
-      <recent name="D:\IdeaProjects\study\08-Java\03-Idea" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.proxy.jdk" />
@@ -434,6 +436,10 @@
       <workItem from="1747820073363" duration="117000" />
       <workItem from="1748485015677" duration="1969000" />
       <workItem from="1748502071748" duration="626000" />
+      <workItem from="1748505630754" duration="80000" />
+      <workItem from="1748509767509" duration="126000" />
+      <workItem from="1749002084902" duration="92000" />
+      <workItem from="1749796868589" duration="82000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -778,7 +784,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,7 +836,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: websocket服务端推送客户端" />
     <MESSAGE value="feat: 模拟心跳" />
     <MESSAGE value="feat: websocket支持推送给指定用户" />
     <MESSAGE value="feat: 正则匹配后缀域名" />
@@ -858,7 +863,8 @@
     <MESSAGE value="feat: 获取工作日的方法" />
     <MESSAGE value="feat: 雷电模拟器设置代理" />
     <MESSAGE value="feat: 03-python脚本打包成exe" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 03-python脚本打包成exe" />
+    <MESSAGE value="feat: 设置图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 设置图标" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
