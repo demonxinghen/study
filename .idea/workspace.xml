@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 设置图标" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 2025.1idea破解">
+      <change afterPath="$PROJECT_DIR$/windows使用遇见的一些问题/Navicat17破解/win_navicat17.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows使用遇见的一些问题/Navicat17破解/破解教程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,12 +85,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/demonxinghen/study.git",
-    "accountId": "ccb2700c-73c0-41e3-85ab-0d5be88091c3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/demonxinghen/study.git&quot;,
+    &quot;accountId&quot;: &quot;ccb2700c-73c0-41e3-85ab-0d5be88091c3&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///usr/local/repo/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6-sources.jar!/org/springframework/boot/SpringApplication.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/local/repo/org/springframework/boot/spring-boot/3.0.6/spring-boot-3.0.6-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java" root0="SKIP_INSPECTION" />
@@ -141,7 +145,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IdeaProjects/study/windows使用遇见的一些问题/Jetbrains破解2025",
+    "last_opened_file_path": "D:/IdeaProjects/study/windows使用遇见的一些问题/Navicat17破解",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,7 +155,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
     "spring.configuration.checksum": "af5e384ba0a6efe33d2ecd97a10b0ff9",
     "vue.rearranger.settings.migration": "true"
   }
@@ -161,18 +165,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\Navicat17破解" />
       <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\Jetbrains破解2025" />
       <recent name="D:\IdeaProjects\study\08-Java\02-JVM" />
       <recent name="D:\IdeaProjects\study\66-AI" />
       <recent name="D:\IdeaProjects\study\12-面试\01-Spring" />
-      <recent name="D:\IdeaProjects\study\18-Python" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\Jetbrains破解2025" />
       <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\小工具\AIDA64" />
       <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\rime\lua" />
       <recent name="D:\IdeaProjects\study\windows使用遇见的一些问题\rime" />
       <recent name="$PROJECT_DIR$/13-安全性/images" />
-      <recent name="$PROJECT_DIR$/12-面试" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.proxy.jdk" />
@@ -439,6 +443,7 @@
       <workItem from="1749002084902" duration="92000" />
       <workItem from="1749796868589" duration="82000" />
       <workItem from="1751771438998" duration="1366000" />
+      <workItem from="1751773661893" duration="688000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -783,7 +788,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -835,7 +840,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 模拟心跳" />
     <MESSAGE value="feat: websocket支持推送给指定用户" />
     <MESSAGE value="feat: 正则匹配后缀域名" />
     <MESSAGE value="feat: springboot3集成redis" />
@@ -863,7 +867,8 @@
     <MESSAGE value="feat: 雷电模拟器设置代理" />
     <MESSAGE value="feat: 03-python脚本打包成exe" />
     <MESSAGE value="feat: 设置图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 设置图标" />
+    <MESSAGE value="feat: 2025.1idea破解" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 2025.1idea破解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
