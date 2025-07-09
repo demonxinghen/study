@@ -443,7 +443,8 @@
       <workItem from="1749796868589" duration="82000" />
       <workItem from="1751771438998" duration="1366000" />
       <workItem from="1751773661893" duration="10208000" />
-      <workItem from="1752044324578" duration="1821000" />
+      <workItem from="1752044324578" duration="1842000" />
+      <workItem from="1752059778837" duration="314000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -788,7 +789,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,8 +841,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 分表情况下或者说相同字段的实体，如何通过动态表名插件的方式来实现公共方法的提取。以及如何动态注入bean。" />
-    <MESSAGE value="feat: clash for windows的parsers配置" />
     <MESSAGE value="feat: clash for windows的parsers配置2" />
     <MESSAGE value="feat: mysql查询表行数和占用空间" />
     <MESSAGE value="feat: linux查看jvm内存" />
