@@ -21,14 +21,14 @@ sudo yum remove docker \
 ```shell
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
-- 使用yum安装
+- 使用yum安装(可用)
 1. 安装需要的软件包
 ```shell
 sudo yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 ```
-2. 设置yum源（已作废，国内镜像被禁用）
+2. 设置yum源
 ```shell
 # 中央仓库
 sudo yum-config-manager \
