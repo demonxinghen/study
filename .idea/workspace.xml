@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: gitattributes">
-      <change afterPath="$PROJECT_DIR$/66-AI/06-emby/06-windows搭建emby.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/66-AI/06-emby/Win64OpenSSL_Light-3_5_2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/66-AI/06-emby/cpolar-stable-windows-amd64-setup.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/66-AI/06-emby/mp3tagv330-x64-setup.exe" afterDir="false" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 搭建emby">
+      <change afterPath="$PROJECT_DIR$/66-AI/06-emby/Connect to Server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/66-AI/06-emby/报错.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/66-AI/06-emby/06-windows搭建emby.md" beforeDir="false" afterPath="$PROJECT_DIR$/66-AI/06-emby/06-windows搭建emby.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,6 +451,7 @@
       <workItem from="1752324002730" duration="8000" />
       <workItem from="1752059778837" duration="3350000" />
       <workItem from="1752650381908" duration="894000" />
+      <workItem from="1754828959613" duration="971000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -796,7 +796,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -848,7 +848,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 使用MAT分析内存问题" />
     <MESSAGE value="feat: 启用IPV6和更新docker可用镜像源" />
     <MESSAGE value="feat: 自建RSSHub" />
     <MESSAGE value="feat: 解决使用puppeteer的问题" />
@@ -873,7 +872,8 @@
     <MESSAGE value="feat: n8n搭建日志监控工作流-禁用执行记录自动清理" />
     <MESSAGE value="feat: n8n搭建日志监控工作流-docker版" />
     <MESSAGE value="feat: gitattributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: gitattributes" />
+    <MESSAGE value="feat: 搭建emby" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 搭建emby" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
