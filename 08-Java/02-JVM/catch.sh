@@ -36,12 +36,14 @@ echo "-----------------------------------"
 
 # 保存线程十六进制ID
 TOP_THREADS=()
+TOP_THREADS_SUMMARY=()
 
 # 3️⃣ 输出线程信息并转换为十六进制
 while read -r tid cpu; do
   hex=$(printf "%x\n" $tid)
   printf "%-10s %-10s 0x%s\n" "$tid" "$cpu" "$hex"
   TOP_THREADS+=($hex)
+  TOP_THREADS_SUMMARY+=("$hex:$cpu")
 done <<< "$THREAD_INFO"
 
 # 4️⃣ 导出线程堆栈
@@ -55,10 +57,13 @@ echo
 echo "=============================="
 echo "📋 前${TOP_N}个高CPU线程堆栈摘要"
 echo "=============================="
-for h in "${TOP_THREADS[@]}"; do
+for item in "${TOP_THREADS_SUMMARY[@]}"; do
+  h=$(echo "$item" | cut -d ':' -f 1) # Hex ID
+  cpu=$(echo "$item" | cut -d ':' -f 2) # CPU %
+
   echo
   echo "------------------------------------"
-  echo "🧵 线程ID (hex): 0x$h"
+  echo "🧵 线程ID (hex): 0x$h | CPU: ${cpu}"
   echo "------------------------------------"
   awk "/nid=0x$h /,/^$/" "$DUMP_FILE"
   echo
