@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 记一次CPU持续暴涨100%的问题2" />
+    <list default="true" id="b4268dfa-d04a-4d9d-abc9-b2de1e2d01fd" name="Changes" comment="feat: 使用perl替代awk,解决超大日志引起的cpu飙涨问题">
+      <change afterPath="$PROJECT_DIR$/windows使用遇见的一些问题/04-WPS使用宏放大图片.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -461,6 +464,8 @@
       <workItem from="1763716314887" duration="175000" />
       <workItem from="1764040758811" duration="2457000" />
       <workItem from="1764043879835" duration="304000" />
+      <workItem from="1764061166878" duration="367000" />
+      <workItem from="1765251334617" duration="224000" />
     </task>
     <task id="LOCAL-00036" summary="feat: leetcode 题目61 N Queens K皇后问题,通过位操作优化, 位操作不熟悉, 看不懂优化原理">
       <created>1676948639551</created>
@@ -805,7 +810,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686879783835</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -848,13 +853,6 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="cpu" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
@@ -864,7 +862,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: conda报错 HTTP 000 CONNECTION FAILED for url" />
     <MESSAGE value="feat: 文件下载" />
     <MESSAGE value="feat: websocket封装通用类。" />
     <MESSAGE value="feat: 合并" />
@@ -889,7 +886,8 @@
     <MESSAGE value="feat: 优化输出" />
     <MESSAGE value="feat: 记一次CPU持续暴涨100%的问题" />
     <MESSAGE value="feat: 记一次CPU持续暴涨100%的问题2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 记一次CPU持续暴涨100%的问题2" />
+    <MESSAGE value="feat: 使用perl替代awk,解决超大日志引起的cpu飙涨问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 使用perl替代awk,解决超大日志引起的cpu飙涨问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
